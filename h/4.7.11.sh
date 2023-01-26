@@ -5,12 +5,12 @@ rm -f /system/Emby.Web.dll
 wget -P /system/ http://192.168.10.5:5300/d/%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8/4.7.11/Emby.Web.dll
 rm -f /system/MediaBrowser.Model.dll
 wget -P /system/ http://192.168.10.5:5300/d/%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8/4.7.11/MediaBrowser.Model.dll
-echo "核心破解完成..."
+echo "核心替换完成..."
 rm -f /system/dashboard-ui/modules/emby-apiclient/connectionmanager.js
 wget -P /system/dashboard-ui/modules/emby-apiclient/ http://192.168.10.5:5300/d/%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8/4.7.11/connectionmanager.js
 rm -f /system/dashboard-ui/embypremiere/embypremiere.js
 wget -P /system/dashboard-ui/embypremiere/ http://192.168.10.5:5300/d/%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8/4.7.11/embypremiere.js
-echo "web破解完成..."
+echo "web替换完成..."
 rm -f /system/Emby.Server.Implementations.dll
 wget -P /system/ http://192.168.10.5:5300/d/%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8/4.7.11/Emby.Server.Implementations.dll
 echo "Implementations替换认证..."
