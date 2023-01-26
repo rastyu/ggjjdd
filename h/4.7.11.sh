@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "docker一键脚本，适4.7.11版本"
-echo "-------------------web端**-------------------"
+echo "-------------------web端-------------------"
 rm -f /system/Emby.Web.dll
 wget -P /system/ http://192.168.10.5:5300/d/%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8/4.7.11/Emby.Web.dll
 rm -f /system/MediaBrowser.Model.dll
