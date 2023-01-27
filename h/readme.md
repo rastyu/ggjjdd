@@ -1,4 +1,4 @@
-## portainer汉化   [`compose]`(https://github.com/rastyu/blili/blob/main/%E7%AC%94%E8%AE%B0/docker%E5%AE%89%E8%A3%85%E7%AC%94%E8%AE%B0.md)
+## portainer汉化   [`compose`](https://github.com/rastyu/blili/blob/main/%E7%AC%94%E8%AE%B0/docker%E5%AE%89%E8%A3%85%E7%AC%94%E8%AE%B0.md)
 ```
 docker run -d --restart=always --name=portainer --net=host -v /var/run/docker.sock:/var/run/docker.sock -v /volume1/docker/portainer:/data 6053537/portainer-ce:latest
 ```
