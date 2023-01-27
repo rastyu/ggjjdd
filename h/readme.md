@@ -1,6 +1,6 @@
 ## portainer汉化
 ```
-docker run -d --restart=always --name=portainer --net=host -v /var/run/docker.sock:/var/run/docker.sock -v /volume1/docker/portainer:/data 6053537/portainer-ce
+docker run -d --restart=always --name=portainer --net=host -v /var/run/docker.sock:/var/run/docker.sock -v /volume1/docker/portainer:/data 6053537/portainer-ce:latest
 ```
 ## 4.7.11
 ```
