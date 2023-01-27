@@ -1,0 +1,3 @@
+#EXTM3U
+#EXTINF:-1 ,CCTV-1
+rtsp://220.186.213.205/PLTV/88888913/224/3221228078/10000100000000060000000002460690_0.smil?rrsip=220.191.136.24&zoneoffset=480&icpid=5568&accounttype=1&limitflux=-1&limitdur=-1&tenantId=8601
