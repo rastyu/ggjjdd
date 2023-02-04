@@ -1,6 +1,6 @@
 #### epg节目信息
 ```
-http://diyp.112114.xyz
+https://diyp.112114.xyz
 ```
 #### m3u
 ```
