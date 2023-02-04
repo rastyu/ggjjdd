@@ -127,7 +127,7 @@ rtsp://220.186.213.205/PLTV/88888913/224/3221229145/1000010000000006000000000566
 rtsp://220.186.213.205/PLTV/88888913/224/3221229289/72488480.smil
 #EXTINF:-1 tvg-logo="https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/png/%E4%BB%98%E8%B4%B9/%E6%B3%95%E6%B2%BB%E5%A4%A9%E5%9C%B0.png" group-title="付费",法治天地
 rtsp://220.186.213.205/PLTV/88888913/224/3221229323/72486984.smil
-#EXTINF:-1 group-title="付费",探索纪录
+#EXTINF:-1 tvg-logo="https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/png/%E4%BB%98%E8%B4%B9/%E6%B1%82%E7%B4%A2%E8%AE%B0%E5%BD%95.png" group-title="付费",探索纪录
 rtsp://220.186.213.205/PLTV/88888913/224/3221228073/10000100000000060000000002460689_0.smil
 #EXTINF:-1 tvg-logo="https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/png/%E4%BB%98%E8%B4%B9/%E5%8A%A8%E6%BC%AB%E7%A7%80%E5%9C%BA.png" group-title="付费",动漫秀场
 rtsp://220.186.213.205/PLTV/88888913/224/3221229236/72486907.smil
