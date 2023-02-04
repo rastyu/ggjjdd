@@ -1,3 +1,7 @@
+#### epg节目信息
+```
+http://diyp.112114.xyz
+```
 #### m3u
 ```
 https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/iptv/iptv.m3u
