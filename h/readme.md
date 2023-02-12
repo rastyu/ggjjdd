@@ -14,3 +14,4 @@ wget -O heimdall.sh https://ghproxy.com/https://raw.githubusercontent.com/rastyu
 ```
 wget -O npm.sh https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/h/npm.sh && sh npm.sh
 ```
+curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/h/npm.sh | sh
