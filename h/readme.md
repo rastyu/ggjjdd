@@ -10,3 +10,7 @@ wget -O 4.7.11.sh https://ghproxy.com/https://raw.githubusercontent.com/rastyu/g
 ```
 wget -O heimdall.sh https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/h/heimdall.sh && sh heimdall.sh
 ```
+## nginx-proxy-manager
+```
+wget -O npm.sh https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/h/npm.sh && sh npm.sh
+```
