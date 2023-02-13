@@ -3,6 +3,8 @@ echo "docker一键脚本，npm改变端口"
 echo "-------------------端口文件替换-------------------"
 rm -f /etc/nginx/conf.d/default.conf
 curl -o /etc/nginx/conf.d/default.conf https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/npm/default.conf
+rm -f /etc/nginx/conf.d/production.conf
+curl -o /etc/nginx/conf.d/production.conf https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/npm/production.conf
 rm -f /app/templates/_listen.conf
 curl -o /app/templates/_listen.conf https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/npm/templates/_listen.conf
 rm -f /app/templates/default.conf
