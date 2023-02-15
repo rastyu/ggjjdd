@@ -12,5 +12,5 @@ wget -O heimdall.sh https://ghproxy.com/https://raw.githubusercontent.com/rastyu
 ```
 ## nginx-proxy-manager
 ```
-curl -o https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/h/npm.sh | sh
+curl -o npm.sh https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/h/npm.sh | sh
 ```
