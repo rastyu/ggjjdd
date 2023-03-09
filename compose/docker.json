@@ -7,8 +7,8 @@
       "description": "nginx-proxy-manager的汉化版",
       "categories": ["docker"],
       "platform": "linux",
-      "logo": "https://ghproxy.com/https://raw.githubusercontent.com/xushier/HD-Icons/main/border-radius/Npm_B.png",
-      "stackfile": "https://raw.githubusercontent.com/portainer/templates/master/stacks/wordpress/edge/docker-stack.yml"
+      "logo": "https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/compose/nginx-proxy-manager/Npm_B.png",
+      "stackfile": "https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/compose/nginx-proxy-manager/docker-compose.yml"
     },
     {
       "type": 4,
