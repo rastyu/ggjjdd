@@ -3,60 +3,6 @@
 	"templates": [
 		{
 			"type": 1,
-			"title": "Emby",
-			"name": "Emby",
-			"note": "Emby开心版",
-			"description": "Emby开心版",
-			"categories": [
-				"家庭媒体"
-			],
-			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emby-logo.png",
-			"image": "lovechen/embyserver:latest",
-			"env": [
-				{
-					"name": "UID",
-					"label": "UID",
-					"default": "1026",
-					"description": "for UserID"
-				},
-				{
-					"name": "GID",
-					"label": "GID",
-					"default": "100",
-					"description": "for GroupID"
-				},
-       	{
-					"name": "GIDLIST",
-					"label": "GIDLIST",
-					"default": "100",
-					"description": "for GIDLIST"
-				},
-				{
-					"name": "TZ",
-					"label": "TZ",
-					"default": "Asia/Shanghai",
-					"description": "中国时间"
-				}
-				],
-			"volumes": [
-			{
-				"name": "/config",
-                                "label": "/config",
-				"default": "/volume1/docker/emby",
-				"description": "配置文件"
-			},
-			{
-				"name": "/pt",
-                                "label": "/pt",
-				"default": "/volume2/pt",
-				"description": "媒体文件"
-			},
-			],
-			"restart_policy": "unless-stopped"
-		},
-		{
-			"type": 1,
 			"title": "Znc",
 			"name": "Znc",
 			"note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/znc/config</p>",
