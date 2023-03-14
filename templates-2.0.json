@@ -54,3 +54,5 @@
 			],
 			"restart_policy": "unless-stopped"
 		},
+	]
+}
