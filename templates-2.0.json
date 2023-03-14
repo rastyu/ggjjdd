@@ -1,0 +1,56 @@
+{
+	"version": "2",
+	"templates": [
+		{
+			"type": 1,
+			"title": "Emby",
+			"name": "Emby",
+			"note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/emby/config<br>mkdir -p /volume1/docker/emby/data/tvshows<br>mkdir -p /volume1/docker/emby/data/movies<br></p>",
+			"description": "[Emby](https://emby.media/) organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.",
+			"categories": [
+				"Home Media"
+			],
+			"platform": "linux",
+			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emby-logo.png",
+			"image": "lovechen/embyserver:latest",
+			"env": [
+				{
+					"name": "UID",
+					"label": "UID",
+					"default": "1026",
+					"description": "for UserID"
+				},
+				{
+					"name": "GID",
+					"label": "GID,
+					"default": "100",
+					"description": "for GroupID"
+				},
+       	{
+					"name": "GIDLIST",
+					"label": "GIDLIST,
+					"default": "100",
+					"description": "for GIDLIST"
+				},
+				{
+					"name": "TZ",
+					"label": "TZ",
+					"default": "Asia/Shanghai",
+					"description": "中国时间"
+				}
+			"volumes": [
+			{
+				"container": "/config",
+        "label": "/config",
+				"default": "/volume1/docker/emby",
+				"description": "配置文件"
+			},
+			{
+				"container": "/pt",
+        "label": "/pt",
+				"default": "/volume2/pt",
+				"description": "媒体文件"
+			},
+			],
+			"restart_policy": "unless-stopped"
+		},
