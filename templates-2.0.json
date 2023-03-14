@@ -38,6 +38,7 @@
 					"default": "Asia/Shanghai",
 					"description": "中国时间"
 				}
+				],
 			"volumes": [
 			{
 				"container": "/config",
