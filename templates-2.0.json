@@ -22,13 +22,13 @@
 				},
 				{
 					"name": "GID",
-					"label": "GID,
+					"label": "GID",
 					"default": "100",
 					"description": "for GroupID"
 				},
        	{
 					"name": "GIDLIST",
-					"label": "GIDLIST,
+					"label": "GIDLIST",
 					"default": "100",
 					"description": "for GIDLIST"
 				},
