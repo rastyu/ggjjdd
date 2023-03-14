@@ -41,14 +41,14 @@
 				],
 			"volumes": [
 			{
-				"container": "/config",
-        "label": "/config",
+				"name": "/config",
+                                "label": "/config",
 				"default": "/volume1/docker/emby",
 				"description": "配置文件"
 			},
 			{
-				"container": "/pt",
-        "label": "/pt",
+				"name": "/pt",
+                                "label": "/pt",
 				"default": "/volume2/pt",
 				"description": "媒体文件"
 			},
