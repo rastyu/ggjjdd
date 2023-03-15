@@ -1,0 +1,15 @@
+version: "3.4"
+services: 
+  heimdall:
+    image: rastyu/heimdall:latest             # 容器镜像名
+    container_name: ${NAME}                  # 容器名称
+    restart: unless-stopped                   # 重启策略
+    network_mode: host                        # host网络
+    volumes:
+      - ${config}:/config      # 配置保存目录
+    environment:          
+      - TZ=Asia/Shanghai                      # 时区
+      - PUID=${UID}                              # 输入id -u可查询，群晖必须改
+      - PGID=${GID}                               # 输入id -u可查询，群晖必须改
+      - UMASK=022                             # 权限掩码
+#默认管理: https://192.168.10.5:2000
