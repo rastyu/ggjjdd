@@ -12,6 +12,6 @@ curl -o /app/templates/default.conf https://ghproxy.com/https://raw.githubuserco
 rm -f /app/templates/letsencrypt-request.conf
 curl -o /app/templates/letsencrypt-request.conf https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/npm/templates/letsencrypt-request.conf
 echo "替换端口完成..."
-python3 -m venv tutorial-env && source tutorial-env/bin/activate && pip install certbot-dns-dnspod && pip install zope
+cd /usr/local/lib/python3.7 && python3 -m venv tutorial-env && source tutorial-env/bin/activate && pip install certbot-dns-dnspod && pip install zope
 rm -rf npm.sh
 echo "-------------------删除脚本完成，请重启容器-------------------"
