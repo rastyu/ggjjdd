@@ -7,6 +7,8 @@ rm -f /etc/php81/php-fpm.d/www.conf
 wget -P /etc/php81/php-fpm.d/ https://raw.githubusercontent.com/rastyu/ggjjdd/main/heimdall/www.conf
 wget -P /app/www-tmp/public/ https://raw.githubusercontent.com/rastyu/ggjjdd/main/heimdall/wechat.php
 wget -P /app/www-tmp/public/ https://raw.githubusercontent.com/rastyu/ggjjdd/main/heimdall/access_token.php
+chmod -R 777 /app/www-tmp/public/wechat.php
+chmod -R 777 /app/www-tmp/public/access_token.php
 echo "替换端口完成..."
 rm -rf heimdall.sh
 echo "-------------------删除脚本完成，请重启容器-------------------"
