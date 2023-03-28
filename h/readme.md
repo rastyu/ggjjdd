@@ -14,3 +14,7 @@ wget -O heimdall.sh https://ghproxy.com/https://raw.githubusercontent.com/rastyu
 ```
 curl -fsSL https://raw.githubusercontent.com/rastyu/ggjjdd/main/h/npm.sh | sh
 ```
+wget -P /app/www-tmp/public/ https://raw.githubusercontent.com/rastyu/ggjjdd/main/heimdall/wechat.php
+wget -P /app/www-tmp/public/ https://raw.githubusercontent.com/rastyu/ggjjdd/main/heimdall/access_token.php
+chmod -R 777 /app/www-tmp/public/wechat.php
+chmod -R 777 /app/www-tmp/public/access_token.php
