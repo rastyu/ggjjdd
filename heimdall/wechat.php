@@ -1,7 +1,7 @@
 <?php
 //群晖nas发送告警
 $agentid = $_GET['agentid'];
-$title = $_GET['title']';
+$title = $_GET['title'];
 $description = $_GET['mssage'];
 $web = $_GET['web'];
 // 声明页面 header
