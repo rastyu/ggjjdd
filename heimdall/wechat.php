@@ -2,8 +2,7 @@
 //群晖nas发送告警
 $agentid = $_GET['agentid'];
 $title ='微信消息智能助手';
-$ip = $_GET['ip'];
-$description = "你的RouterOS主路由ip变更为{$ip}";
+$description = $_GET['mssage'];
 $web = $_GET['web'];
 // 声明页面 header
 header("Content-type:text/html;charset=utf-8");
