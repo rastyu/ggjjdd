@@ -1,7 +1,7 @@
 <?php
 //群晖nas发送告警
 $agentid = $_GET['agentid'];
-$title ='MikroTik智能助手';
+$title ='微信消息智能助手';
 $ip = $_GET['ip'];
 $description = "你的RouterOS主路由ip变更为{$ip}";
 $web = $_GET['web'];
