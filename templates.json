@@ -1,0 +1,863 @@
+{
+  "version": "2",
+  "templates": [
+    {
+      "type": 3,
+      "title": "Emby",
+      "description": "emby开心版",
+      "categories": ["家庭媒体"],
+      "platform": "linux",
+      "logo": "https://i.imgtg.com/2023/03/27/jYYNP.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "portainer/emby/docker-stack.yml"
+    }, 
+      "env": [
+    {
+	  "name": "version",
+	  "label": "镜像版本",
+	  "default": "latest"
+	},
+	{
+	  "name": "NAME",
+	  "label": "容器名称",
+	  "default": "emby"
+	},
+	{
+	  "name": "UID",
+	  "label": "UID",
+	  "default": "1026"
+	},
+	{
+	  "name": "GID",
+	  "label": "GID",
+	  "default": "100"
+	},
+	{
+	  "name": "GIDLIST",
+	  "label": "GIDLIST",
+	  "default": "100"
+	},
+	{
+	  "name": "config",
+	  "label": "配置保存目录",
+	  "default": "/volume1/docker/emby"
+	},
+	{
+	  "name": "media",
+	  "label": "媒体保存目录",
+	  "default": "/volume2/pt"
+	},
+    {
+	  "name": "PROXY",
+	  "label": "代理地址",
+	  "description": "自定义修改",
+	  "default": "http://user:password@192.168.10.2:7890"
+	}
+    ]
+    },
+    {
+      "type": 3,
+      "title": "qBittorrent",
+      "description": "qBittorrent下载",
+      "categories": ["家庭媒体"],
+      "platform": "linux",
+      "logo": "https://i.imgtg.com/2023/03/27/jfqRt.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "portainer/qBittorrent/docker-stack.yml"
+    }, 
+      "env": [
+	{
+	  "name": "version",
+	  "label": "镜像版本",
+	  "default": "4.3.9-iyuu"
+	},
+	{
+	  "name": "NAME",
+	  "label": "容器名称",
+	  "default": "qBittorrent"
+	},
+	{
+      "name": "UID",
+	  "label": "UID",
+	  "default": "1026"
+	},
+	{
+	  "name": "GID",
+	  "label": "GID",
+	  "default": "100"
+	},
+	{
+	  "name": "config",
+	  "label": "配置保存目录",
+	  "default": "/volume1/docker/qBittorrent"
+	}, 
+	{
+	  "name": "download",
+	  "label": "下载保存目录",
+	  "default": "/volume2/pt"
+	},
+	{
+	  "name": "iyuu",
+	  "label": "iyuu配置目录",
+	  "default": "/volume1/docker/qBittorrent/iyuu"
+	},
+	{
+	  "name": "WEB",
+	  "label": "WEBUI控制端口",
+	  "default": "8085"
+	},
+	{
+	  "name": "BT",
+	  "label": "BT连接端口",
+	  "default": "51413"
+	},
+	{
+	  "name": "CATEGORY",
+	  "label": "自动分类",
+      "select": [
+    {
+      "text": "关闭自动分类",
+      "value": "false",
+      "default": "false"
+    },
+    {
+      "text": "开启自动分类",
+      "value": "true"
+    }
+    ]
+    },    
+	{
+	  "name": "NOTIFY",
+	  "label": "消息提醒",
+      "select": [
+    {
+      "text": "关闭消息提醒",
+      "value": "false",
+      "default": "false"
+    },
+    {
+      "text": "开启消息提醒",
+      "value": "true"
+    }
+    ]
+    },
+	{
+	  "name": "IYUU_HELP",
+	  "label": "IYUU自动重校验",
+      "description": "自动重校验、自动恢复做种;应早于iyuu辅助任务",
+	  "default": "26,31 9,21 * * *"
+    },
+    {
+	  "name": "TRACKER",
+	  "label": "tracker出错阈值",
+	  "default": "5"
+	}
+    ]
+    },
+    {
+      "type": 3,
+      "title": "nastool",
+      "description": "NAS媒体库管理工具",
+      "categories": ["家庭媒体"],
+      "platform": "linux",
+      "logo": "https://i.imgtg.com/2023/03/27/jY2RB.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "portainer/nastool/docker-stack.yml"
+    }, 
+      "env": [
+    {
+	  "name": "version",
+	  "label": "镜像版本",
+	  "default": "latest"
+	},
+	{
+	  "name": "NAME",
+	  "label": "容器名称",
+	  "default": "nastool"
+	},
+	{
+	  "name": "UID",
+	  "label": "UID",
+	  "default": "1026"
+	},
+	{
+	  "name": "GID",
+	  "label": "GID",
+	  "default": "100"
+	},
+    {
+	  "name": "AUTO_UPDATE",
+	  "label": "自动更新",
+      "select": [
+    {
+      "text": "关闭自动更新",
+      "value": "false",
+      "default": "false"
+    },
+    {
+      "text": "开启自动更新",
+      "value": "true"
+    }
+    ]
+    },
+    {
+	  "name": "CN_UPDATE",
+	  "label": "国内源更新",
+      "select": [
+    {
+      "text": "不使用国内源更新",
+      "value": "false",
+      "default": "false"
+    },
+    {
+      "text": "使用国内源更新",
+      "value": "true"
+    }
+    ]
+    },
+	{
+	  "name": "config",
+	  "label": "配置保存目录",
+	  "default": "/volume1/docker/nastool"
+	}, 
+	{
+	  "name": "media",
+	  "label": "监控目录",
+	  "default": "/volume2/pt"
+	}
+    ]
+    },
+    {
+      "type": 3,
+      "title": "filebrowser",
+      "description": "filebrowser网盘工具",
+      "categories": ["工具"],
+      "platform": "linux",
+      "logo": "https://i.imgtg.com/2023/03/27/jYlul.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "portainer/filebrowser/docker-stack.yml"
+    }, 
+      "env": [
+    {
+	  "name": "version",
+	  "label": "镜像版本",
+	  "default": "latest"
+	},
+	{
+	  "name": "NAME",
+	  "label": "容器名称",
+	  "default": "filebrowser"
+	},
+	{
+	  "name": "UID",
+	  "label": "UID",
+	  "default": "1026"
+	},
+	{
+	  "name": "GID",
+	  "label": "GID",
+	  "default": "100"
+	},
+    {
+	  "name": "web",
+	  "label": "WEBUI控制端口",
+	  "default": "8082"
+	},
+	{
+	  "name": "config",
+	  "label": "配置保存目录",
+	  "default": "/volume1/docker/filebrowser"
+	}, 
+	{
+	  "name": "media",
+	  "label": "监控目录",
+	  "default": "/volume2/pt"
+	}
+    ]
+    },
+    {
+      "type": 3,
+      "title": "nginxwebui",
+      "description": "Nginx网页管理器 ",
+      "categories": ["Nginx"],
+      "platform": "linux",
+      "logo": "https://i.imgtg.com/2023/03/27/jY69s.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "portainer/nginxweb/docker-stack.yml"
+    }, 
+      "env": [
+    {
+	  "name": "version",
+	  "label": "镜像版本",
+	  "default": "latest"
+	},
+	{
+	  "name": "NAME",
+	  "label": "容器名称",
+	  "default": "nginxweb"
+	},
+	{
+	  "name": "config",
+	  "label": "配置保存目录",
+	  "default": "/volume1/docker/nginxweb"
+	},
+	{
+	  "name": "port",
+	  "label": "管理端口",
+	  "default": "8180"
+	}
+    ]
+    },
+    {
+      "type": 3,
+      "title": "nginx-proxy-manager",
+      "description": "Nginx代理管理器 ",
+      "categories": ["Nginx"],
+      "platform": "linux",
+      "logo": "https://i.imgtg.com/2023/03/27/jYXUK.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "portainer/npm/docker-stack.yml"
+    }, 
+      "env": [
+    {
+	  "name": "version",
+	  "label": "镜像版本",
+	  "default": "latest"
+	},
+	{
+	  "name": "NAME",
+	  "label": "容器名称",
+	  "default": "nginx-proxy-manager"
+	},
+	{
+	  "name": "UID",
+	  "label": "UID",
+	  "default": "1026"
+	},
+	{
+	  "name": "GID",
+	  "label": "GID",
+	  "default": "100"
+	},
+	{
+	  "name": "config",
+	  "label": "配置保存目录",
+	  "default": "/volume1/docker/nginx"
+	}, 
+	{
+	  "name": "ssl",
+	  "label": "证书保存目录",
+	  "default": "/volume1/docker/nginx/ssl"
+	}, 
+	{
+	  "name": "IPV6",
+	  "label": "是否支持IPv6",
+      "select": [
+    {
+      "text": "禁用IPv6支持",
+      "value": "true",
+      "default": "true"
+	},    
+    {
+      "text": "开启IPv6支持",
+      "value": "false"
+    }
+    ]
+    }
+    ]
+    },
+    {
+      "type": 3,
+      "title": "heimdall",
+      "description": "heimdall网页",
+      "categories": ["Nginx"],
+      "platform": "linux",
+      "logo": "https://i.imgtg.com/2023/03/27/jfOIi.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "portainer/heimdall/docker-stack.yml"
+    }, 
+      "env": [
+    {
+	  "name": "version",
+	  "label": "镜像版本",
+	  "default": "latest"
+	},
+	{
+	  "name": "NAME",
+	  "label": "容器名称",
+	  "default": "heimdall"
+	},
+	{
+	  "name": "UID",
+	  "label": "UID",
+	  "default": "1026"
+	},
+	{
+	  "name": "GID",
+	  "label": "GID",
+	  "default": "100"
+	},
+	{
+	  "name": "config",
+	  "label": "配置保存目录",
+	  "default": "/volume1/docker/heimdall"
+	}
+    ]
+    },
+    {
+      "type": 3,
+      "title": "签到狗",
+      "description": "一个自动化签到工具",
+      "categories": ["签到"],
+      "platform": "linux",
+      "logo": "https://i.imgtg.com/2023/03/27/jYuya.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "portainer/qiandao/docker-stack.yml"
+    }, 
+      "env": [
+    {
+	  "name": "version",
+	  "label": "镜像版本",
+      "description": "latest版本有OCR功能,lite-latest版本除了OCR相关功能",
+	  "default": "lite-latest"
+	},
+	{
+	  "name": "NAME",
+	  "label": "容器名称",
+	  "default": "qiandao"
+	},
+	{
+	  "name": "config",
+	  "label": "配置保存目录",
+	  "default": "/volume1/docker/qiandao"
+	},
+	{
+	  "name": "PORT",
+	  "label": "访问端口",
+	  "default": "6123"
+	},
+	{
+	  "name": "DOMAIN",
+	  "label": "指定访问域名",
+	  "description": "指定域名，建议修改，不然邮件重置密码之类的功能无效",
+	  "default": "qiandao.tasydu.tk:8443"
+	},
+	{
+	  "name": "AES",
+	  "label": "AES加密密钥",
+	  "description": "AES加密密钥，强烈建议修改",
+	  "default": "binux"
+	},
+	{
+	  "name": "SECRET",
+	  "label": "cookie加密密钥",
+	  "description": "cookie加密密钥，强烈建议修改",
+	  "default": "binux"
+	}, 
+	{
+	  "name": "USER",
+	  "label": "邮箱用户名",
+	  "description": "自定义修改",
+	  "default": "38483@qq.com"
+	},
+	{
+	  "name": "PASSWORD",
+	  "label": "邮箱密码",
+	  "description": "自定义修改",
+	  "default": "ymcljtsawctjbjaf"
+	}
+    ]
+    },
+    {
+      "type": 3,
+      "title": "青龙",
+      "description": "薅京豆",
+      "categories": ["签到"],
+      "platform": "linux",
+      "logo": "https://i.imgtg.com/2023/03/27/jfoFX.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "portainer/qinglong/docker-stack.yml"
+    }, 
+      "env": [
+	{
+	  "name": "version",
+	  "label": "镜像版本",
+	  "default": "2.14.7"
+	},
+	{
+	  "name": "NAME",
+	  "label": "容器名称",
+	  "default": "qinglong"
+	},
+	{
+	  "name": "config",
+	  "label": "配置保存目录",
+	  "default": "/volume1/docker/qinglong"
+	}
+    ]
+    },
+    {
+      "type": 3,
+      "title": "alist网盘",
+      "description": "网盘聚合工具",
+      "categories": ["工具"],
+      "platform": "linux",
+      "logo": "https://i.imgtg.com/2023/03/27/jfMEL.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "portainer/alist/docker-stack.yml"
+    },
+      "env": [
+    {
+	  "name": "version",
+	  "label": "镜像版本",
+	  "default": "latest"
+	},
+	{
+	  "name": "NAME",
+	  "label": "容器名称",
+	  "default": "Alist"
+	},
+	{
+	  "name": "UID",
+	  "label": "UID",
+	  "default": "1026"
+	},
+	{
+	  "name": "GID",
+	  "label": "GID",
+	  "default": "100"
+	},
+	{
+	  "name": "config",
+	  "label": "配置保存目录",
+	  "default": "/volume1/docker/alist"
+	},
+	{
+	  "name": "apk",
+	  "label": "本地共享目录",
+	  "default": "/volume1/docker/apk"
+	}
+    ]
+    },
+    {
+      "type": 3,
+      "title": "Mediatools",
+      "description": "媒体刮削整理",
+      "categories": ["家庭媒体"],
+      "platform": "linux",
+      "logo": "https://i.imgtg.com/2023/03/27/jYVO6.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "portainer/Mediatools/docker-stack.yml"
+    }, 
+      "env": [
+    {
+	  "name": "version",
+	  "label": "镜像版本",
+	  "default": "latest"
+	},
+	{
+	  "name": "NAME",
+	  "label": "容器名称",
+	  "default": "Mediatools"
+	},
+	{
+	  "name": "UID",
+	  "label": "UID",
+	  "default": "1026"
+	},
+	{
+	  "name": "GID",
+	  "label": "GID",
+	  "default": "100"
+	},
+	{
+	  "name": "config",
+	  "label": "配置保存目录",
+	  "default": "/volume1/docker/embychs"
+	}
+    ]
+    },
+    {
+      "type": 3,
+      "title": "halo",
+      "description": "halo博客系统",
+      "categories": ["工具"],
+      "platform": "linux",
+      "logo": "https://i.imgtg.com/2023/03/27/jYfEb.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "portainer/halo/docker-stack.yml"
+    }, 
+      "env": [
+	{
+	  "name": "version",
+	  "label": "镜像版本",
+	  "default": "1.6.1"
+	},
+	{
+	  "name": "NAME",
+	  "label": "容器名称",
+	  "default": "halo"
+	},
+	{
+	  "name": "UID",
+	  "label": "UID",
+	  "default": "1026"
+	},
+	{
+	  "name": "GID",
+	  "label": "GID",
+	  "default": "100"
+	},
+	{
+	  "name": "config",
+	  "label": "配置保存目录",
+	  "default": "/volume1/docker/halo"
+	}, 
+	{
+	  "name": "WEB",
+	  "label": "WEBUI控制端口",
+	  "default": "8090"
+	}
+    ]
+    },
+    {
+      "type": 3,
+      "title": "subconverter",
+      "description": "Clash规则订阅转换",
+      "categories": ["工具"],
+      "platform": "linux",
+      "logo": "https://i.imgtg.com/2023/03/27/jYjFg.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "portainer/subconverter/docker-stack.yml"
+    },
+      "env": [
+	{
+	  "name": "version",
+	  "label": "镜像版本",
+	  "default": "latest"
+	},
+	{
+	  "name": "NAME",
+	  "label": "容器名称",
+	  "default": "subconverter"
+	}
+    ]
+    },
+    {
+      "type": 3,
+      "title": "iperf3",
+      "description": "网络性能测试工具",
+      "categories": ["工具"],
+      "platform": "linux",
+      "logo": "https://i.imgtg.com/2023/03/27/jYCaN.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "portainer/iperf3/docker-stack.yml"
+    }, 
+      "env": [
+    {
+	  "name": "version",
+	  "label": "镜像版本",
+	  "default": "latest"
+	},
+	{
+	  "name": "NAME",
+	  "label": "容器名称",
+	  "default": "iperf3-server"
+	},
+	{
+	  "name": "command",
+	  "label": "运行时命令",
+      "select": [
+    {
+      "text": "服务端",
+      "value": "-s",
+      "default": "-s"
+    },
+    {
+      "text": "客户端",
+      "value": "-c"
+    }
+    ]
+    }
+    ]            
+    },
+    {
+      "type": 3,
+      "title": "watchtower",
+      "description": "自动更新Docker镜像",
+      "categories": ["工具"],
+      "platform": "linux",
+      "logo": "https://i.imgtg.com/2023/03/27/jYIdS.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "portainer/watchtower/docker-stack.yml"
+    }, 
+      "env": [
+    {
+	  "name": "version",
+	  "label": "镜像版本",
+	  "default": "latest"
+	},
+	{
+	  "name": "NAME",
+	  "label": "容器名称",
+	  "default": "watchtower"
+	},
+	{
+	  "name": "ONCE",
+	  "label": "仅运行一次",
+      "select": [
+    {
+      "text": "关闭",
+      "value": "false",
+      "default": "false"
+    },
+    {
+      "text": "开启",
+      "value": "true"
+    }
+    ]
+	},
+    {
+	  "name": "NOTIS",
+      "label": "是否仅提醒",
+      "select": [
+    {
+      "text": "仅提醒更新",
+      "value": "true",
+      "default": "true"
+    },
+    {
+      "text": "提醒并更新镜像",
+      "value": "false"
+    }
+    ]
+	},
+    {
+	  "name": "cron",
+      "description": "默认每天早上9点运行",
+	  "label": "cron时间表",
+	  "default": "0 0 9 * * *"
+	},
+	{
+	  "name": "TITLE",
+	  "label": "邮件标题",
+	  "default": "Docker更新提醒"
+	},
+	{
+	  "name": "FROM",
+	  "label": "发送邮箱名字",
+	  "default": "384839@qq.com"
+	},
+	{
+	  "name": "TO",
+	  "label": "接收邮箱名字",
+	  "default": "75969@qq.com"
+	},
+	{
+	  "name": "PASSWORD",
+	  "label": "发送邮箱密码",
+	  "default": "ymcljtsawctjbjaf"
+	},
+	{
+	  "name": "command",
+	  "label": "运行时命令",
+	  "description": "需要监控的容器镜像名称",
+	  "default": "Alist emby halo heimdall Mediatools nastool nginx-proxy-manager subconverter portainer qBittorrent qiandao qinglong chatgpt"
+	}
+    ]            
+    },
+    {
+      "type": 3,
+      "title": "chatgpt",
+      "description": "chatgpt智能AI",
+      "categories": ["工具"],
+      "platform": "linux",
+      "logo": "https://i.imgtg.com/2023/03/27/jYwNC.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "portainer/chatgpt/docker-stack.yml"
+    }, 
+      "env": [
+    {
+	  "name": "version",
+	  "label": "镜像版本",
+	  "default": "latest"
+	},
+	{
+	  "name": "NAME",
+	  "label": "容器名称",
+	  "default": "chatgpt"
+	},
+	{
+	  "name": "API",
+	  "label": "Openai_API_KEY",
+	  "default": "sk-xxxxxxxxxxxxxxxxxxx"
+	},
+    {
+	  "name": "TOKEN",
+	  "label": "ACCESS_TOKEN",
+	  "description": "二选一",
+	  "default": "xxxxxx"
+	},
+    {
+	  "name": "MODEL",
+	  "label": "模型选择",
+      "select": [
+    {
+      "text": "gpt-3.5-turbo",
+      "value": "gpt-3.5-turbo",
+      "default": "gpt-3.5-turbo"
+    },
+    {
+      "text": "gpt-4",
+      "value": "gpt-4"
+    }, 
+    {
+      "text": "gpt-4-0314",
+      "value": "gpt-4-0314"
+    }, 
+    {
+      "text": "gpt-4-32k",
+      "value": "gpt-4-32k"
+    }, 
+    {
+      "text": "gpt-4-32k-0314",
+      "value": "gpt-4-32k-0314"
+    }, 
+    {
+      "text": "gpt-3.5-turbo-0301",
+      "value": "gpt-3.5-turbo-0301"
+    }
+    ]
+    },
+	{
+	  "name": "SECRET",
+	  "label": "访问权限密钥",
+	  "description": "强烈建议修改",
+	  "default": "123456"
+	},
+	{
+	  "name": "PROXY",
+	  "label": "代理地址",
+	  "description": "自定义修改",
+	  "default": "http://user:password@192.168.10.2:7890"
+	}
+    ]            
+    }
+  ]
+}
