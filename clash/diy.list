@@ -20,5 +20,3 @@ DOMAIN-SUFFIX,52sf.ga
 # 刮削器
 DOMAIN,dbimg.movie.kg
 DOMAIN,tmdbmvapi.movie.kg
-# openai
-DOMAIN-SUFFIX,theb.ai
