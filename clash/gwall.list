@@ -19,3 +19,6 @@ DOMAIN-SUFFIX,aptoide.com
 
 # openai
 DOMAIN-SUFFIX,theb.ai
+
+# hexo
+DOMAIN-SUFFIX,vercel.app
