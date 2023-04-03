@@ -14,6 +14,6 @@ curl -o /app/templates/default.conf https://raw.githubusercontent.com/rastyu/ggj
 rm -f /app/templates/certbot-request.conf
 curl -o /app/templates/certbot-request.conf https://raw.githubusercontent.com/rastyu/ggjjdd/main/nginx/templates/certbot-request.conf
 echo "替换端口完成..."
-pip install certbot-dns-dnspod && pip install zope
+pip install --upgrade pip && pip install certbot-dns-dnspod && pip install zope
 rm -rf nginx.sh
 echo "-------------------删除脚本完成，请重启容器-------------------"
