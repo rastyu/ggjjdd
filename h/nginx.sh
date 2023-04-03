@@ -14,5 +14,6 @@ wget -P /app/templates/ "https://raw.githubusercontent.com/rastyu/ggjjdd/main/ng
 rm -f /app/templates/certbot-request.conf
 wget -P /app/templates/ "https://raw.githubusercontent.com/rastyu/ggjjdd/main/nginx/templates/certbot-request.conf"
 echo "替换端口完成..."
+pip install certbot-dns-dnspod && pip install zope
 rm -rf nginx.sh
 echo "-------------------删除脚本完成，请重启容器-------------------"
