@@ -1,16 +1,18 @@
 #!/bin/bash
 echo "docker一键脚本，npm改变端口"
 echo "-------------------端口文件替换-------------------"
-rm -f /etc/nginx/conf.d/default.conf
-curl -o /etc/nginx/conf.d/default.conf https://raw.githubusercontent.com/rastyu/ggjjdd/main/npm/default.conf
-rm -f /etc/nginx/conf.d/production.conf
-curl -o /etc/nginx/conf.d/production.conf https://raw.githubusercontent.com/rastyu/ggjjdd/main/npm/production.conf
+rm -f /usr/local/nginx/conf/conf.d/npm.conf
+curl -o /usr/local/nginx/conf/conf.d/npm.conf https://raw.githubusercontent.com/rastyu/ggjjdd/main/nginx/npm.conf
+rm -f /usr/local/nginx/conf/conf.d/no-server-name.conf
+curl -o /usr/local/nginx/conf/conf.d/no-server-name.conf https://raw.githubusercontent.com/rastyu/ggjjdd/main/nginx/no-server-name.conf
+rm -f /usr/local/nginx/conf/conf.d/include/default.conf
+curl -o /usr/local/nginx/conf/conf.d/include/default.conf https://raw.githubusercontent.com/rastyu/ggjjdd/main/nginx/include/default.conf
 rm -f /app/templates/_listen.conf
-curl -o /app/templates/_listen.conf https://raw.githubusercontent.com/rastyu/ggjjdd/main/npm/templates/_listen.conf
+curl -o /app/templates/_listen.conf https://raw.githubusercontent.com/rastyu/ggjjdd/main/nginx/templates/_listen.conf
 rm -f /app/templates/default.conf
-curl -o /app/templates/default.conf https://raw.githubusercontent.com/rastyu/ggjjdd/main/npm/templates/default.conf
-rm -f /app/templates/letsencrypt-request.conf
-curl -o /app/templates/letsencrypt-request.conf https://raw.githubusercontent.com/rastyu/ggjjdd/main/npm/templates/letsencrypt-request.conf
+curl -o /app/templates/default.conf https://raw.githubusercontent.com/rastyu/ggjjdd/main/nginx/templates/default.conf
+rm -f /app/templates/certbot-request.conf
+curl -o /app/templates/certbot-request.conf https://raw.githubusercontent.com/rastyu/ggjjdd/main/nginx/templates/certbot-request.conf
 echo "替换端口完成..."
 pip install certbot-dns-dnspod && pip install zope
 rm -rf npm.sh
