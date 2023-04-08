@@ -11,8 +11,6 @@ rm -f /app/templates/default.conf
 curl -o /app/templates/default.conf https://raw.githubusercontent.com/rastyu/ggjjdd/main/npm/templates/default.conf
 rm -f /app/templates/letsencrypt-request.conf
 curl -o /app/templates/letsencrypt-request.conf https://raw.githubusercontent.com/rastyu/ggjjdd/main/npm/templates/letsencrypt-request.conf
-rm -f /app/frontend/js/i18n/messages.json
-curl -o /app/frontend/js/i18n/messages.json https://raw.githubusercontent.com/rastyu/ggjjdd/main/npm/messages.json
 echo "替换端口完成..."
 pip install certbot-dns-dnspod && pip install zope
 rm -rf npm.sh
