@@ -22,5 +22,5 @@ chmod -R 777 /app/www-tmp/public/access_token.php
 rm -f /app/frontend/js/i18n/messages.json
 curl -o /app/frontend/js/i18n/messages.json https://raw.githubusercontent.com/rastyu/ggjjdd/main/npm/messages.json
 ```
-rm -f /system/dashboard-ui/index.html && wget -P /system/dashboard-ui/ https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/emby/index.html && wget -P /system/dashboard-ui/ https://raw.githubusercontent.com/rastyu/ggjjdd/main/emby/funny.js
+rm -f /system/dashboard-ui/index.html && wget -P /system/dashboard-ui/ https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/emby/index.html && wget -P /system/dashboard-ui/ https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/emby/funny.js
 ```
