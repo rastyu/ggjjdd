@@ -14,5 +14,5 @@ echo "web替换完成..."
 rm -f /system/Emby.Server.Implementations.dll
 wget -P /system/ https://raw.githubusercontent.com/rastyu/ggjjdd/main/emby/4.7.13/Emby.Server.Implementations.dll
 echo "Implementations替换认证..."
-rm -rf 4.7.11.sh
+rm -rf 4.7.13.sh
 echo "-------------------删除脚本完成，预防重运行出错-------------------"
