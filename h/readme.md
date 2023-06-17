@@ -2,9 +2,9 @@
 ```
 docker run -d --restart=always --name=portainer --net=host -v /var/run/docker.sock:/var/run/docker.sock -v /volume1/docker/portainer:/data 6053537/portainer-ce:latest
 ```
-## 4.7.11
+## 4.7.13
 ```
-wget -O 4.7.11.sh https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/h/4.7.11.sh && sh 4.7.11.sh
+wget -O 4.7.13.sh https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/h/4.7.13.sh && sh 4.7.13.sh
 ```
 ## heimdall
 ```
