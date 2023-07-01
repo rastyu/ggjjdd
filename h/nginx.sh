@@ -3,6 +3,8 @@ echo "docker一键脚本，npm改变端口"
 echo "-------------------端口文件替换-------------------"
 rm -f /opt/nginx-proxy-manager/global/certbot-dns-plugins.js
 curl -o /opt/nginx-proxy-manager/global/certbot-dns-plugins.js https://raw.githubusercontent.com/rastyu/ggjjdd/main/nginx/certbot-dns-plugins.js
+rm -f /opt/nginx-proxy-manager/templates/proxy_host.conf
+curl -o /opt/nginx-proxy-manager/templates/proxy_host.conf https://raw.githubusercontent.com/rastyu/ggjjdd/main/nginx/proxy_host.conf
 echo "替换端口完成..."
 rm -rf nginx.sh
 echo "-------------------删除脚本完成，请重启容器-------------------"
