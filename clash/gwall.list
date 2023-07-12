@@ -3,6 +3,7 @@
 
 # github短连接
 DOMAIN-SUFFIX,git.io
+DOMAIN-SUFFIX,tmate.io
 
 # emby影视刮削
 DOMAIN-SUFFIX,fanart.tv
