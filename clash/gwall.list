@@ -17,9 +17,3 @@ DOMAIN-SUFFIX,imdb.com
 # 安卓emotn安卓市场
 DOMAIN-SUFFIX,keeflys.com
 DOMAIN-SUFFIX,aptoide.com
-
-# openai
-DOMAIN-SUFFIX,theb.ai
-
-# hexo
-DOMAIN-SUFFIX,vercel.app
