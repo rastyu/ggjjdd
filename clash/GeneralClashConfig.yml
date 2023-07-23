@@ -1,23 +1,35 @@
-port: 7890                                  # HTTP(S) 代理端口
-socks-port: 7891                            # SOCKS5 代理端口
-redir-port: 7892                            # 流量转发端口
-mixed-port: 7893                            # HTTP(S)&SOCKS5 混合代理端口
-tproxy-port: 7895                           # TProxy 端口
-allow-lan: true              
-mode: rule                                  # 代理模式
-log-level: error                            # 日志等级
+# HTTP(S) 代理端口
+port: 7890
+# SOCKS5 代理端口
+socks-port: 7891
+# 流量转发端口
+redir-port: 7892
+# HTTP(S)&SOCKS5 混合代理端口
+mixed-port: 7893
+# TProxy 端口
+tproxy-port: 7895
+allow-lan: true
+# 代理模式
+mode: rule
+# 日志等级
+log-level: error
 external-controller: 0.0.0.0:9090
-secret: 123cxzzxc                           # 控制面板登录密钥
+# 控制面板登录密钥
+secret: 123cxzzxc
 bind-address: "*"
-external-ui: "/usr/share/openclash/ui"      # 控制面板地址 
-ipv6: false                                 # ipv6是否支持
-interface-name: eth0                        # 绑定网络接口
+# 控制面板地址
+external-ui: "/usr/share/openclash/ui"
+# ipv6是否支持
+ipv6: false
+# 绑定网络接口
+interface-name: eth0
 dns:
   enable: true
   ipv6: false
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  listen: 0.0.0.0:7874                      # DNS监听端口 
+  # DNS监听端口
+  listen: 0.0.0.0:7874
   nameserver:
   - 119.29.29.29
   - 223.5.5.5
@@ -31,5 +43,6 @@ dns:
   - "+.*"
 profile:
   store-selected: true
+# 代理服务密码
 authentication:
-- rastyu:qQ75969207                         # 代理服务密码
+- rastyu:qQ75969207
