@@ -9,7 +9,7 @@ mixed-port: 7893
 # TProxy 端口
 tproxy-port: 7895
 allow-lan: true
-# 代理模式
+# 规则模式：
 mode: rule
 # 日志等级
 log-level: error
