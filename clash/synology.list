@@ -8,6 +8,3 @@ DOMAIN,update.synology.com
 DOMAIN,update7.synology.com
 DOMAIN,autoupdate7.synology.com
 DOMAIN,autoupdate7.synology.cn
-
-# 小米应用包管理
-DOMAIN,api.installer.xiaomi.com
