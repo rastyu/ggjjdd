@@ -1,6 +1,5 @@
 <?php
 //群晖nas发送告警
-$agentid = $_GET['agentid'];
 $title = $_GET['title'];
 $description = $_GET['message'];
 $web = $_GET['web'];
@@ -10,7 +9,7 @@ header("Content-type:text/html;charset=utf-8");
 function getToken(){
     // 定义 id 和 secret
     $corpid='ww46698e7be96e2a3d';//这里填写你的企业 ID
-    $corpsecret = $_GET['corpsecret'];//这里填写你刚创建的应用 secret
+    $corpsecret='UBxlDjeG7qXR5IJbCpXYhBC9OYAm-gNoVawxOh0W9tQ';//这里填写你刚创建的应用 secret
     // 读取 access_token
     include './access_token.php';
     // 判断是否过期
@@ -62,7 +61,7 @@ function send($data){
  $postdata = array(
     'touser' => '@all',          //不需要写联系人，会发送给所有人
     'msgtype' => 'textcard',
-    'agentid' => $agentid,//这里填写你刚创建的应用 AgentId
+    'agentid' => '1000006',//这里填写你刚创建的应用 AgentId
     'textcard' => array(
         'title' => $title,
         'description' => $description,
