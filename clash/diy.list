@@ -17,3 +17,6 @@ DOMAIN-SUFFIX,52sf.ga
 # 刮削器
 DOMAIN,dbimg.movie.kg
 DOMAIN,tmdbmvapi.movie.kg
+
+# BANGUMI动漫推荐
+DOMAIN-SUFFIX,bgm.tv
