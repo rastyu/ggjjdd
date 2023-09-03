@@ -149,6 +149,8 @@ rtsp://220.186.213.205/PLTV/88888913/224/3221229403/86934031.smil
 rtsp://220.186.213.205/PLTV/88888913/224/3221229315/72486946.smil
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shenghuoshishang.png" tvg-id="1981" tvg-name="生活时尚" group-title="付费",生活时尚
 rtsp://220.186.213.205/PLTV/88888913/224/3221229277/72486909.smil
+#EXTINF:-1 group-title="付费",快乐垂钓
+rtsp://220.186.213.205/PLTV/88888913/224/3221229327/72487516.smil
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/DOCUMENTARY-CHANNEL.jpg" tvg-id="6585" tvg-name="茶频道" group-title="付费",茶频道
 rtsp://220.186.213.205/PLTV/88888913/224/3221229281/72486910.smil
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jinyingkatong.png" tvg-id="69" tvg-name="金鹰卡通" group-title="付费",金鹰卡通标清
