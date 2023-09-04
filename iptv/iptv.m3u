@@ -143,7 +143,7 @@ rtsp://220.186.213.205/PLTV/88888913/224/3221229323/72486984.smil
 rtsp://220.186.213.205/PLTV/88888913/224/3221228073/10000100000000060000000002460689_0.smil
 #EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f5d2661c6c8e546a5452.png" group-title="付费",动漫秀场
 rtsp://220.186.213.205/PLTV/88888913/224/3221229236/72486907.smil
-#EXTINF:-1 tvg-logo="https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/png/付费/优优宝贝.png" tvg-id="6605" tvg-name="优优宝贝" group-title="付费",优优宝贝
+#EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f73b661c6c8e546ac8de.png" tvg-id="6605" tvg-name="优优宝贝" group-title="付费",优优宝贝
 rtsp://220.186.213.205/PLTV/88888913/224/3221229403/86934031.smil
 #EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f600661c6c8e546a92f7.png" group-title="付费",金色学堂
 rtsp://220.186.213.205/PLTV/88888913/224/3221229315/72486946.smil
