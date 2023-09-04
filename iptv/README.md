@@ -13,7 +13,3 @@ https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/iptv/ip
 ```
 https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/iptv/diyp.txt
 ```
-
-```
-https://ghproxy.com/https://raw.githubusercontent.com/rastyu/ggjjdd/main/iptv/sxg.m3u
-```
