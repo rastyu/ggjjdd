@@ -161,7 +161,7 @@ rtsp://220.186.213.205/PLTV/88888913/224/3221227973/1000010000000006000000000078
 rtsp://220.186.213.205/PLTV/88888913/224/3221227968/10000100000000060000000000789246_0.smil
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育4台.png" tvg-id="7245" tvg-name="中国教育4台" group-title="付费",教育4台
 rtsp://220.186.213.205/PLTV/88888913/224/3221229128/10000100000000060000000005781889_0.smil
-#EXTINF:-1, tvg-logo="https://pic.imgdb.cn/item/64f69a0c661c6c8e54904b97.png" group-title="付费",杭州青少体育
+#EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f69a0c661c6c8e54904b97.png" group-title="付费",杭州青少体育
 rtsp://220.186.213.205/PLTV/88888913/224/3221229217/57567111.smil
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVfaxianzhilv.png" tvg-id="6588" tvg-name="发现之旅" group-title="付费",发现之旅
 rtsp://220.186.213.205/PLTV/88888913/224/3221229311/71994609.smil
