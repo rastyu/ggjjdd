@@ -103,20 +103,20 @@ rtsp://220.186.213.205/PLTV/88888913/224/3221227765/1000010000000006000000000030
 rtsp://220.186.213.205/PLTV/88888913/224/3221228006/10000100000000060000000000789241_0.smil
 #EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f460661c6c8e546a196a.png" group-title="地方",瑞安新闻
 rtsp://220.186.213.205/PLTV/88888913/224/3221228993/10000100000000060000000004199197_0.smil
-#EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f3fb661c6c8e546a0f17.png" group-title="地方",浙江经视
+#EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f4f3661c6c8e546a2a65.png" group-title="地方",浙江钱江都市
+rtsp://220.186.213.205/PLTV/88888913/224/3221229041/10000100000000060000000004799139_0.smil
+#EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f3fb661c6c8e546a0f49.png" group-title="地方",浙江教科影视
+rtsp://220.186.213.205/PLTV/88888913/224/3221229111/10000100000000060000000004799164_0.smil
+#EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f3fb661c6c8e546a0f17.png" group-title="地方",浙江经济生活
 rtsp://220.186.213.205/PLTV/88888913/224/3221229115/10000100000000060000000004799165_0.smil
-#EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f3fb661c6c8e546a0f35.png" group-title="地方",浙江新闻
+#EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f3fb661c6c8e546a0f35.png" group-title="地方",浙江公共新闻
 rtsp://220.186.213.205/PLTV/88888913/224/3221229034/10000100000000060000000004799161_0.smil
+#EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f3fb661c6c8e546a0f1d.png" group-title="地方",浙江民生休闲
+rtsp://220.186.213.205/PLTV/88888913/224/3221229045/10000100000000060000000004799162_0.smil
+#EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f400661c6c8e546a1095.png" group-title="地方",浙江之江纪录
+rtsp://220.186.213.205/PLTV/88888913/224/3221229409/92749537.smil
 #EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f3fb661c6c8e546a0f25.png" group-title="地方",浙江少儿
 rtsp://220.186.213.205/PLTV/88888913/224/3221229030/10000100000000060000000004799160_0.smil
-#EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f4f3661c6c8e546a2a65.png" group-title="地方",钱江频道
-rtsp://220.186.213.205/PLTV/88888913/224/3221229041/10000100000000060000000004799139_0.smil
-#EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f3fb661c6c8e546a0f49.png" group-title="地方",教科影视
-rtsp://220.186.213.205/PLTV/88888913/224/3221229111/10000100000000060000000004799164_0.smil
-#EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f3fb661c6c8e546a0f1d.png" group-title="地方",民生休闲
-rtsp://220.186.213.205/PLTV/88888913/224/3221229045/10000100000000060000000004799162_0.smil
-#EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f400661c6c8e546a1095.png" group-title="地方",之江纪录
-rtsp://220.186.213.205/PLTV/88888913/224/3221229409/92749537.smil
 #EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f3e2661c6c8e546a0af3.png" group-title="地方",晴彩竞技
 rtsp://220.186.213.205/PLTV/88888913/224/3221229408/94611403.smil
 #EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/64f5f3e2661c6c8e546a0afd.png" group-title="地方",晴彩篮球
@@ -161,7 +161,7 @@ rtsp://220.186.213.205/PLTV/88888913/224/3221227973/1000010000000006000000000078
 rtsp://220.186.213.205/PLTV/88888913/224/3221227968/10000100000000060000000000789246_0.smil
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育4台.png" tvg-id="7245" tvg-name="中国教育4台" group-title="付费",教育4台标清
 rtsp://220.186.213.205/PLTV/88888913/224/3221229128/10000100000000060000000005781889_0.smil
-#EXTINF:-1,青少体育
+#EXTINF:-1, tvg-logo="https://pic.imgdb.cn/item/64f69a0c661c6c8e54904b97.png" 杭州青少体育
 rtsp://220.186.213.205/PLTV/88888913/224/3221229217/57567111.smil
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTVfaxianzhilv.png" tvg-id="6588" tvg-name="发现之旅" group-title="付费",发现之旅标清
 rtsp://220.186.213.205/PLTV/88888913/224/3221229311/71994609.smil
