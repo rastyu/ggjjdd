@@ -1,11 +1,10 @@
-## github
+# cloudflare的worker配置
 
+## github
 ```
 https://github.com/hunshcn/gh-proxy/blob/master/index.js
 ```
-
 ## clash
-
 ```
 https://github.com/3Kmfi6HP/EDtunnel/blob/main/_worker.js
 ```
@@ -14,7 +13,6 @@ https://github.com/3Kmfi6HP/EDtunnel/blob/main/_worker.js
 let userID = 'cae9d245-31c2-46e2-bc74-3fc54cbac7d2'
 
 ## subconverter
-
 ```
 https://github.com/bulianglin/psub/blob/main/worker.js
 ```
