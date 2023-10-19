@@ -1,11 +1,10 @@
-```
 // <!--GAMFC-->version base on commit 43fad05dcdae3b723c53c226f8181fc5bd47223e, time is 2023-06-22 15:20:02 UTC<!--GAMFC-END-->.
 // @ts-ignore
 import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = 'cae9d245-31c2-46e2-bc74-3fc54cbac7d2';
+let userID = 'b857611f-6b37-4c81-b072-bd72f730764c';
 
 const proxyIPs = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org'];
 
@@ -868,6 +867,3 @@ function createVLESSSub(userID_Path, hostName) {
 	// Join output with newlines
 	return output.join('\n');
 }
-
-
-```
