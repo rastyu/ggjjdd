@@ -10,6 +10,9 @@ https://github.com/hunshcn/gh-proxy/blob/master/index.js
 https://github.com/3Kmfi6HP/EDtunnel/blob/main/_worker.js
 ```
 
+修改uuid  
+let userID = 'cae9d245-31c2-46e2-bc74-3fc54cbac7d2'
+
 ## subconverter
 
 ```
