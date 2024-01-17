@@ -149,7 +149,7 @@ rtsp://220.186.213.205/PLTV/88888913/224/3221229315/72486946.smil
 rtsp://220.186.213.205/PLTV/88888913/224/3221229277/72486909.smil
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/BAMC6.jpg" tvg-id="6608" tvg-name="环球旅游" group-title="付费",环球旅游
 rtsp://220.186.213.205/PLTV/88888913/224/3221229415/103499735.smil
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE22.jpg" tvg-id="6573" tvg-name="汽摩频道" group-title="付费",汽摩频道
+#EXTINF:-1 tvg-logo="https://pic.imgdb.cn/item/65a7648b871b83018aa15165.png" tvg-id="6573" tvg-name="汽摩频道" group-title="付费",汽摩频道
 rtsp://220.186.213.205/PLTV/88888913/224/3221229413/102025060.smil
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/KUAILECHUIDIAO.jpg" tvg-id="6595" tvg-name="快乐垂钓" group-title="付费",快乐垂钓
 rtsp://220.186.213.205/PLTV/88888913/224/3221229327/72487516.smil
