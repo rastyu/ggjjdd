@@ -31,18 +31,17 @@ dns:
   # DNS监听端口
   listen: 0.0.0.0:7874
   nameserver:
-  - 119.29.29.29
-  - 223.5.5.5
-  fallback:
-  - 8.8.8.8
-  - 1.0.0.1
-  default-nameserver:
   - 192.168.10.1
   - 223.5.5.5
+  fallback:
+  - tls://1.0.0.1:853
+  - tls://8.8.4.4:853
+  default-nameserver:
+  - 192.168.10.1
   fake-ip-filter:
   - "+.*"
 profile:
   store-selected: true
 # 代理服务密码
 authentication:
-- rastyu:qQ75969207
+- rastyu:password
