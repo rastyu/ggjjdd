@@ -15,7 +15,7 @@ mode: rule
 log-level: error
 external-controller: 0.0.0.0:9090
 # 控制面板登录密钥
-secret: 123cxzzxc
+secret: password
 bind-address: "*"
 # 控制面板地址
 external-ui: "/usr/share/openclash/ui"
