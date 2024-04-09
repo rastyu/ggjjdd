@@ -1,8 +1,7 @@
 # 内容：DIY
 # 数量：3条
 
-# Fast
-DOMAIN-SUFFIX,fast.com
+
 
 # Speedtest by Ookla
 DOMAIN-SUFFIX,speedtest.net
@@ -10,13 +9,6 @@ DOMAIN-SUFFIX,ooklaserver.net
 
 # Speed Test by Cloudflare
 DOMAIN-SUFFIX,speed.cloudflare.com
-
-# 直播源
-DOMAIN-SUFFIX,52sf.ga
-
-# 刮削器
-DOMAIN,dbimg.movie.kg
-DOMAIN,tmdbmvapi.movie.kg
 
 # BANGUMI动漫推荐
 DOMAIN-SUFFIX,bgm.tv
