@@ -1,47 +1,34 @@
-# HTTP(S) 代理端口
 port: 7890
-# SOCKS5 代理端口
 socks-port: 7891
-# 流量转发端口
 redir-port: 7892
-# HTTP(S)&SOCKS5 混合代理端口
 mixed-port: 7893
-# TProxy 端口
 tproxy-port: 7895
 allow-lan: true
-# 规则模式：
 mode: rule
-# 日志等级
 log-level: error
 external-controller: 0.0.0.0:9090
-# 控制面板登录密钥
 secret: password
 bind-address: "*"
-# 控制面板地址
 external-ui: "/usr/share/openclash/ui"
-# ipv6是否支持
 ipv6: false
-# 绑定网络接口
 interface-name: eth0
 dns:
   enable: true
   ipv6: false
-  enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  # DNS监听端口
   listen: 0.0.0.0:7874
   nameserver:
-  - 192.168.10.1
-  - 223.5.5.5
+    - 192.168.10.1
+    - 223.5.5.5
   fallback:
-  - tls://1.0.0.1:853
-  - tls://8.8.4.4:853
+    - tls://1.0.0.1:853
+    - tls://8.8.4.4:853
   default-nameserver:
-  - 192.168.10.1
+    - 192.168.10.1
   fake-ip-filter:
   - "+.*"
+  enhanced-mode: fake-ip
 profile:
   store-selected: true
-# 代理服务密码
 authentication:
-- rastyu:password
+  - rastyu:password
