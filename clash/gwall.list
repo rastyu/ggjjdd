@@ -14,3 +14,6 @@ DOMAIN-SUFFIX,v2rayssr.com
 
 # pikpak网盘
 DOMAIN-SUFFIX,pikpak.me
+
+# npmjs
+DOMAIN-SUFFIX,npmjs.org
