@@ -7,7 +7,7 @@ allow-lan: true
 mode: rule
 log-level: error
 external-controller: 0.0.0.0:9090
-secret: 123cxzzxc
+secret: password
 bind-address: "*"
 external-ui: "/usr/share/openclash/ui"
 ipv6: false
@@ -15,20 +15,16 @@ interface-name: eth0
 dns:
   enable: true
   ipv6: false
-  fake-ip-range: 198.18.0.1/16
+  enhanced-mode: redir-host
   listen: 0.0.0.0:7874
   nameserver:
-  - 192.168.10.1
-  - 223.5.5.5
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
   fallback:
-  - tls://1.0.0.1:853
-  - tls://8.8.4.4:853
+  - tls://1.0.0.1
+  - tls://8.8.4.4
   default-nameserver:
-  - 192.168.10.1
-  - 223.5.5.5  
-  fake-ip-filter:
-  - "+.*"
-  enhanced-mode: fake-ip
+  - 223.5.5.5
 profile:
   store-selected: true
 authentication:
