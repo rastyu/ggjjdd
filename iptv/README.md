@@ -11,3 +11,4 @@ sleep 5
 # 第二步：使用cookie获取频道列表，保存到res.html
 curl http://220.186.213.198:33200/EPG/jsp/getchannellistHWCTC.jsp -b cookie.txt -o channel.txt
 ```
+![Uploading 屏幕截图 2024-11-04 121609.png…]()
