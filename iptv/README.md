@@ -12,3 +12,7 @@ sleep 5
 curl http://220.186.213.198:33200/EPG/jsp/getchannellistHWCTC.jsp -b cookie.txt -o channel.txt
 ```
 <img width="959" alt="屏幕截图 2024-11-04 121609" src="https://github.com/user-attachments/assets/b73c2592-45bd-4f83-a9f7-92a0f6ccede4">
+## option12
+<img width="964" alt="屏幕截图 2024-11-04 122711" src="https://github.com/user-attachments/assets/ae44c917-1a1c-44de-8b80-a1f30856ecc7">
+## option60
+<img width="959" alt="屏幕截图 2024-11-04 121609" src="https://github.com/user-attachments/assets/b6266725-740c-4c62-809a-244f6cdddc7b">
