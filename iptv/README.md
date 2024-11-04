@@ -4,7 +4,7 @@ Cron: "5 */12 * * *" # same as Cron Expressions
 MaxConcurrent: 5 # not more than 16
 Address: 0.0.0.0:8888
 Mode: udpxy # udpxy, igmp, url
-UdpxyHost: "http://192.168.10.1" # not blank if mode is udpxy
+UdpxyHost: "http://192.168.10.1:8188" # not blank if mode is udpxy
 Exclude: "画中画|单音轨|PIP"
 
 Api:
