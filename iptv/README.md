@@ -9,6 +9,5 @@ curl http://220.186.213.198:33200/EPG/jsp/ValidAuthenticationHWCTC.jsp -c cookie
 sleep 5
 
 # 第二步：使用cookie获取频道列表，保存到res.html
-curl http://220.186.213.198:33200/EPG/jsp/getchannellistHWCTC.jsp -b cookie.txt -o res.html
-
+curl http://220.186.213.198:33200/EPG/jsp/getchannellistHWCTC.jsp -b cookie.txt -o channel.txt
 ```
