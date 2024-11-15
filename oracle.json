@@ -1,0 +1,70 @@
+{
+    "version": "2",
+    "templates": [
+    {
+      "type": 3,
+      "title": "Caddy",
+      "description": "",
+      "note": "",
+      "categories": ["网页"],
+      "platform": "linux",
+      "logo": "https://pic.imgdb.cn/item/650f19f6c458853aef2fcb15.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/movie-pilot",
+        "stackfile": "oracle/caddy/docker-stack.yml"
+    }
+    },
+    {
+      "type": 3,
+      "title": "Flatnote",
+      "description": "在线markdown编辑器",
+      "note": "<a href='https://hub.docker.com/r/dullage/flatnotes' target='_blank'>镜像地址</a><p><a href='http://192.168.10.5:19876' target='_blank'>Web管理端口</a></p>",
+      "categories": ["日记博客"],
+      "platform": "linux",
+      "logo": "https://pic.imgdb.cn/item/64d831141ddac507ccd6e7b4.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "oracle/flatnotes/docker-stack.yml"
+    }
+    },
+    {
+      "type": 3,
+      "title": "jellyseerr",
+      "description": "Jellyseerr选片",
+      "note": "<a href='https://hub.docker.com/r/fallenbagel/jellyseerr' target='_blank'>镜像地址</a><p><a href='http://192.168.10.5:5055' target='_blank'>Web管理端口</a></p>",
+      "categories": ["工具"],
+      "platform": "linux",
+      "logo": "https://pic.imgdb.cn/item/653e6222c458853aef87d8a5.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "oracle/jellyseerr/docker-stack.yml"
+    }
+    },
+    {
+      "type": 3,
+      "title": "subconverter",
+      "description": "Clash规则订阅转换",
+      "note": "<a href='https://hub.docker.com/r/tindy2013/subconverter' target='_blank'>镜像地址</a><p><a href='https://github.com/tindy2013/subconverter/blob/master/README-cn.md' target='_blank'>官方文档</a></p>",      
+      "categories": ["工具"],
+      "platform": "linux",
+      "logo": "https://pic.imgdb.cn/item/65a367ae871b83018a870216.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "oracle/subconverter/docker-stack.yml"
+    }
+    },
+    {
+      "type": 3,
+      "title": "tools",
+      "description": "常用工具",
+      "note": "<a href='https://hub.docker.com/r/qingfeng2336/it-tools' target='_blank'>镜像地址</a><p><a href='https://github.com/lemon8866/it-tools/tree/translate' target='_blank'>官方文档</a></p>",      
+      "categories": ["工具"],
+      "platform": "linux",
+      "logo": "https://pic.imgdb.cn/item/65a36a6b871b83018a9094e2.png",
+      "repository": {
+        "url": "https://gitee.com/rastyu/docker",
+        "stackfile": "oracle/tools/docker-stack.yml"
+    }
+    }
+  ]
+}
