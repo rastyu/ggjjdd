@@ -1,3 +1,4 @@
+```
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
 })
@@ -62,3 +63,4 @@ async function handleRequest(request) {
     headers: { 'Content-Type': 'application/json' },
   });
 }
+```
