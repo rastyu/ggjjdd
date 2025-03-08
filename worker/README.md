@@ -24,6 +24,6 @@ KV或R2变量名：`SUB_BUCKET`
 ## 微信通知
 https://wechat.75969207.xyz/?secert=xxxxxxx&agentId=xxxxxxx&msg=text
 
-secert：`应用秘钥`
-agentId：`应用id`
+secert：`应用秘钥`  
+agentId：`应用id`  
 msg：`消息内容`
