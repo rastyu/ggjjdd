@@ -4,26 +4,32 @@ addEventListener('fetch', event => {
 })
 
 // 获取Token
-async function getTocken(secert, agentId, title, msg, web) {
+async function getTocken(secert, agentId, title, msg, media) {
   const url = `https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=ww46698e7be96e2a3d&corpsecret=${secert}`;
 
   const response = await fetch(url);
   const data = await response.json();
   const token = data.access_token;
-  return sendText(token, agentId, title, msg, web);
+  return sendText(token, agentId, title, msg, media);
 }
 
 // 发送文本信息
-async function sendText(token, agentId, title, msg, web) {
+async function sendText(token, agentId, title, msg, media) {
   const sendUrl = `https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=${token}`;
   const data = JSON.stringify({
    "touser": "CaiYang",
-   "msgtype": "textcard",
+   "msgtype": "mpnews",
    "agentid": agentId,
-   "textcard":{
-            "title": title,
-            "description": msg,
-            "url": web
+   "safe":0,
+   "mpnews": {
+       "articles":[
+           {
+               "title": title,
+               "thumb_media_id": media,
+               "content": msg,
+               "digest": msg
+            }
+       ]
    }
   });
 
@@ -44,15 +50,15 @@ async function handleRequest(request) {
   const apiAgentId = searchParams.get('agentId');
   const apiTitle = searchParams.get('title');
   const apiMsgParam = searchParams.get('msg');
-  const apiWeb = searchParams.get('web');
+  const apiMedia = searchParams.get('media');
 
-  if (!apiSecert || !apiAgentId || !apiTitle || !apiMsgParam || !apiWeb) {
+  if (!apiSecert || !apiAgentId || !apiTitle || !apiMsgParam || !apiMedia) {
     apimsg = '有必填参数没有填写，请检查是否填写正确和格式是否错误。';
     status = 1;
   } else {
     try {
       // 执行主程序
-      await getTocken(apiSecert, apiAgentId, apiTitle, apiMsgParam, apiWeb);
+      await getTocken(apiSecert, apiAgentId, apiTitle, apiMsgParam, apiMedia);
     } catch (error) {
       status = 1;
       apimsg = '主程序运行时出现错误，请检查参数是否填写正确。';
