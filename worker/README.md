@@ -41,22 +41,20 @@ web：`网站内容`
    }
 ```
 ```
-   "touser": "CaiYang",
-   "msgtype": "textcard",
-   "agentid": agentId,
-   "textcard":{
-            "title": title,
-            "description": msg,
-            "url": web
-   }
+    "touser": "CaiYang",
+    "msgtype": "text",
+    "agentid": agentId,
+    "safe": 0,
+    "text": {
+      "content": msg
+    }
 ```
 ```
-   "touser": "CaiYang",
-   "msgtype": "textcard",
-   "agentid": agentId,
-   "textcard":{
-            "title": title,
-            "description": msg,
-            "url": web
-   }
+    "touser": "CaiYang",
+    "msgtype": "markdown",
+    "agentid": agentId,
+    "safe": 0,
+    "markdown": {
+      "content": msg
+    }
 ```
