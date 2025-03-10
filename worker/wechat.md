@@ -14,16 +14,17 @@ async function getTocken(secert, msg, agentId) {
 }
 
 // 发送文本信息
-async function sendText(token, agentId, msg) {
+async function sendText(token, agentId, Title, msg, Url) {
   const sendUrl = `https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=${token}`;
   const data = JSON.stringify({
-    "safe": 0,
-    "touser": "CaiYang",
-    "msgtype": "text",
-    "agentid": agentId,
-    "text": {
-      "content": msg
-    }
+   "touser": "CaiYang",
+   "msgtype": "textcard",
+   "agentid": agentId,
+   "textcard":{
+            "title": Title,
+            "description": msg,
+            "url"": Url
+   }
   });
 
   const response = await fetch(sendUrl, {
@@ -41,15 +42,17 @@ async function handleRequest(request) {
   // 读取参数
   const apiSecert = searchParams.get('secert');
   const apiAgentId = searchParams.get('agentId');
+  const apiTitle = searchParams.get('Title');
   const apiMsgParam = searchParams.get('msg');
+  const apiUrl = searchParams.get('Url');
 
-  if (!apiSecert || !apiAgentId || !apiMsgParam) {
+  if (!apiSecert || !apiAgentId || !apiTitle || !apiMsgParam || !apiUrl) {
     apimsg = '有必填参数没有填写，请检查是否填写正确和格式是否错误。';
     status = 1;
   } else {
     try {
       // 执行主程序
-      await getTocken(apiSecert, apiMsgParam, apiAgentId);
+      await getTocken(apiSecert, apiAgentId, apiTitle, apiMsgParam, apiUrl);
     } catch (error) {
       status = 1;
       apimsg = '主程序运行时出现错误，请检查参数是否填写正确。';
