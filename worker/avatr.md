@@ -70,7 +70,7 @@ async function handleRequest(request) {
                 return;
               }
 
-              fetch("https://wechat.75969207.xyz/?secert=QPYdYuuB_rMrxwqrPBA6tm0qgWfiB51HOT0RUAwyYWg&agentId=1000003&title=挪车提醒&msg=您好阿维塔车主，有人需要您挪车，请及时处理。&web=https://www.beijing-time.org", {
+              fetch("https://wechat.75969207.xyz/?secert=QPYdYuuB_rMrxwqrPBA6tm0qgWfiB51HOT0RUAwyYWg&agentId=1000003&media=27R1BaStq46UgVZjnFgdAFfzcL5NS9tSAoCyCpfeenLb2tptNBbZsVxs8y_VEqLei&title=挪车提醒&msg=您好阿维塔车主，有人需要您挪车，请及时处理。", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" }})
                   alert("通知已发送！");
