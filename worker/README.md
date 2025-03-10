@@ -59,11 +59,11 @@ web：`网站内容`
     }
 ```
 ```
-   "touser" : "CaiYang",
-   "msgtype" : "mpnews",
-   "agentid" : agentId,
+   "touser": "CaiYang",
+   "msgtype": "mpnews",
+   "agentid": agentId,
    "safe":0
-   "mpnews" : {
+   "mpnews": {
        "articles":[
            {
                "title": title,
