@@ -67,8 +67,9 @@ web：`网站内容`
        "articles":[
            {
                "title": title,
-               "thumb_media_id": media
-               "content": msg
+               "thumb_media_id": media,
+               "content": msg,
+               "digest": msg
             }
        ]
    }
