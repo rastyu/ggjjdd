@@ -58,3 +58,18 @@ web：`网站内容`
       "content": msg
     }
 ```
+```
+   "touser" : "CaiYang",
+   "msgtype" : "mpnews",
+   "agentid" : agentId,
+   "safe":0
+   "mpnews" : {
+       "articles":[
+           {
+               "title": title,
+               "thumb_media_id": media
+               "content": msg
+            }
+       ]
+   }
+```
