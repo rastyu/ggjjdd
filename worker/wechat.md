@@ -37,7 +37,7 @@ async function sendText(token, agentId, title, msg, web) {
 
 async function handleRequest(request) {
   const { searchParams } = new URL(request.url);
-  let status = 0, apimsg = '';
+  let status = 0, apimsg = '消息已推送';
 
   // 读取参数
   const apiSecert = searchParams.get('secert');
