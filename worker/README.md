@@ -29,3 +29,34 @@ agentId：`应用id`
 msg：`消息内容`  
 title：`主题内容`  
 web：`网站内容`
+
+```
+   "touser": "CaiYang",
+   "msgtype": "textcard",
+   "agentid": agentId,
+   "textcard":{
+            "title": title,
+            "description": msg,
+            "url": web
+   }
+```
+```
+   "touser": "CaiYang",
+   "msgtype": "textcard",
+   "agentid": agentId,
+   "textcard":{
+            "title": title,
+            "description": msg,
+            "url": web
+   }
+```
+```
+   "touser": "CaiYang",
+   "msgtype": "textcard",
+   "agentid": agentId,
+   "textcard":{
+            "title": title,
+            "description": msg,
+            "url": web
+   }
+```
