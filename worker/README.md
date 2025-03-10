@@ -26,4 +26,6 @@ https://wechat.75969207.xyz/?secert=xxxxxxx&agentId=xxxxxxx&msg=text&title=xxxx&
 
 secert：`应用秘钥`  
 agentId：`应用id`  
-msg：`消息内容`
+msg：`消息内容`  
+title：`主题内容`  
+web：`网站内容`
