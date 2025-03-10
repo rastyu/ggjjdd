@@ -22,7 +22,7 @@ https://github.com/bulianglin/psub/blob/main/worker.js
 KV或R2变量名：`SUB_BUCKET`
 
 ## 微信通知
-https://wechat.75969207.xyz/?secert=xxxxxxx&agentId=xxxxxxx&msg=text&title=xxxx&web=xxx
+https://wechat.75969207.xyz/?secert=xxxxxxx&agentId=xxxxxxx&media=xxx&title=xxxx&msg=text
 
 secert：`应用秘钥`  
 agentId：`应用id`  
