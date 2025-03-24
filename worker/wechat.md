@@ -1,3 +1,4 @@
+## 原微信地址
 ```
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
@@ -73,6 +74,7 @@ async function handleRequest(request) {
   });
 }
 ```
+## 代理微信地址
 ```
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
