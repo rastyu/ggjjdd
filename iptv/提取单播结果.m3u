@@ -15,14 +15,14 @@ rtsp://220.186.213.205/PLTV/88888913/224/3221229034/1000010000000006000000000479
 rtsp://220.186.213.205/PLTV/88888913/224/3221229045/10000100000000060000000004799162_0.smil
 #EXTINF:-1,tvg-id="" tvg-name="浙江少儿高清" tvg-logo="https://epg.v1.mk/logo/%E6%B5%99%E6%B1%9F%E5%B0%91%E5%84%BF%E9%AB%98%E6%B8%85.png" group-title="OTT",浙江少儿高清
 rtsp://220.186.213.205/PLTV/88888913/224/3221229030/10000100000000060000000004799160_0.smil
+#EXTINF:-1,tvg-id="" tvg-name="生态环境" tvg-logo="https://epg.v1.mk/logo/%E7%94%9F%E6%80%81%E7%8E%AF%E5%A2%83.png" group-title="OTT",生态环境
+rtsp://220.186.213.205/PLTV/88888913/224/3221229458/133688507.smil
 #EXTINF:-1,tvg-id="1" tvg-name="好易购1高清" tvg-logo="https://epg.v1.mk/logo/%E5%A5%BD%E6%98%93%E8%B4%AD1%E9%AB%98%E6%B8%85.png" group-title="OTT",好易购1高清
 rtsp://220.186.213.205/PLTV/88888913/224/3221229213/53485722.smil
 #EXTINF:-1,tvg-id="" tvg-name="温州一套测试" tvg-logo="https://epg.v1.mk/logo/%E6%B8%A9%E5%B7%9E%E4%B8%80%E5%A5%97%E6%B5%8B%E8%AF%95.png" group-title="OTT",温州一套测试
 rtsp://220.186.213.205/PLTV/88888913/224/3221228993/10000100000000060000000004199197_0.smil
 #EXTINF:-1,tvg-id="2" tvg-name="好易购2" tvg-logo="https://epg.v1.mk/logo/%E5%A5%BD%E6%98%93%E8%B4%AD2.png" group-title="OTT",好易购2
 rtsp://220.186.213.205/PLTV/88888913/224/3221229439/121778722.smil
-#EXTINF:-1,tvg-id="" tvg-name="车迷" tvg-logo="https://epg.v1.mk/logo/%E8%BD%A6%E8%BF%B7.png" group-title="OTT",车迷
-rtsp://220.186.213.205/PLTV/88888913/224/3221229421/110996831.smil
 #EXTINF:-1,tvg-id="" tvg-name="环球旅游" tvg-logo="https://epg.v1.mk/logo/%E7%8E%AF%E7%90%83%E6%97%85%E6%B8%B8.png" group-title="OTT",环球旅游
 rtsp://220.186.213.205/PLTV/88888913/224/3221229415/103499735.smil
 #EXTINF:-1,tvg-id="" tvg-name="中央少儿高清" tvg-logo="https://epg.v1.mk/logo/%E4%B8%AD%E5%A4%AE%E5%B0%91%E5%84%BF%E9%AB%98%E6%B8%85.png" group-title="OTT",中央少儿高清
@@ -113,16 +113,16 @@ rtsp://220.186.213.205/PLTV/88888913/224/3221229042/1000010000000006000000000483
 rtsp://220.186.213.205/PLTV/88888913/224/3221229127/10000100000000060000000004835832_0.smil
 #EXTINF:-1,tvg-id="" tvg-name="青海卫视" tvg-logo="https://epg.v1.mk/logo/%E9%9D%92%E6%B5%B7%E5%8D%AB%E8%A7%86.png" group-title="OTT",青海卫视
 rtsp://220.186.213.205/PLTV/88888913/224/3221227765/10000100000000060000000000304132_0.smil
-#EXTINF:-1,tvg-id="" tvg-name="西藏卫视" tvg-logo="https://epg.v1.mk/logo/%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86.png" group-title="OTT",西藏卫视
-rtsp://220.186.213.205/PLTV/88888913/224/3221228005/10000100000000060000000000793620_0.smil
+#EXTINF:-1,tvg-id="" tvg-name="西藏卫视高清" tvg-logo="https://epg.v1.mk/logo/%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86%E9%AB%98%E6%B8%85.png" group-title="OTT",西藏卫视高清
+rtsp://220.186.213.205/PLTV/88888913/224/3221229457/134307492.smil
 #EXTINF:-1,tvg-id="" tvg-name="陕西卫视" tvg-logo="https://epg.v1.mk/logo/%E9%99%95%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="OTT",陕西卫视
 rtsp://220.186.213.205/PLTV/88888913/224/3221227826/10000100000000060000000000304223_0.smil
-#EXTINF:-1,tvg-id="" tvg-name="兵团卫视" tvg-logo="https://epg.v1.mk/logo/%E5%85%B5%E5%9B%A2%E5%8D%AB%E8%A7%86.png" group-title="OTT",兵团卫视
-rtsp://220.186.213.205/PLTV/88888913/224/3221228006/10000100000000060000000000789241_0.smil
+#EXTINF:-1,tvg-id="" tvg-name="兵团卫视高清" tvg-logo="https://epg.v1.mk/logo/%E5%85%B5%E5%9B%A2%E5%8D%AB%E8%A7%86%E9%AB%98%E6%B8%85.png" group-title="OTT",兵团卫视高清
+rtsp://220.186.213.205/PLTV/88888913/224/3221229461/134307530.smil
 #EXTINF:-1,tvg-id="" tvg-name="山西卫视" tvg-logo="https://epg.v1.mk/logo/%E5%B1%B1%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="OTT",山西卫视
 rtsp://220.186.213.205/PLTV/88888913/224/3221227787/10000100000000060000000000304213_0.smil
-#EXTINF:-1,tvg-id="" tvg-name="宁夏卫视" tvg-logo="https://epg.v1.mk/logo/%E5%AE%81%E5%A4%8F%E5%8D%AB%E8%A7%86.png" group-title="OTT",宁夏卫视
-rtsp://220.186.213.205/PLTV/88888913/224/3221227855/10000100000000060000000000304710_0.smil
+#EXTINF:-1,tvg-id="" tvg-name="宁夏卫视高清" tvg-logo="https://epg.v1.mk/logo/%E5%AE%81%E5%A4%8F%E5%8D%AB%E8%A7%86%E9%AB%98%E6%B8%85.png" group-title="OTT",宁夏卫视高清
+rtsp://220.186.213.205/PLTV/88888913/224/3221229462/134307486.smil
 #EXTINF:-1,tvg-id="" tvg-name="河南卫视高清" tvg-logo="https://epg.v1.mk/logo/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86%E9%AB%98%E6%B8%85.png" group-title="OTT",河南卫视高清
 rtsp://220.186.213.205/PLTV/88888913/224/3221229057/10000100000000060000000004835833_0.smil
 #EXTINF:-1,tvg-id="" tvg-name="广西卫视" tvg-logo="https://epg.v1.mk/logo/%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="OTT",广西卫视
@@ -139,6 +139,8 @@ rtsp://220.186.213.205/PLTV/88888913/224/3221228984/1000010000000006000000000436
 rtsp://220.186.213.205/PLTV/88888913/224/3221227968/10000100000000060000000000789246_0.smil
 #EXTINF:-1,tvg-id="" tvg-name="中国教育四套" tvg-logo="https://epg.v1.mk/logo/%E4%B8%AD%E5%9B%BD%E6%95%99%E8%82%B2%E5%9B%9B%E5%A5%97.png" group-title="OTT",中国教育四套
 rtsp://220.186.213.205/PLTV/88888913/224/3221229128/10000100000000060000000005781889_0.smil
+#EXTINF:-1,tvg-id="" tvg-name="新疆卫视高清" tvg-logo="https://epg.v1.mk/logo/%E6%96%B0%E7%96%86%E5%8D%AB%E8%A7%86%E9%AB%98%E6%B8%85.png" group-title="OTT",新疆卫视高清
+rtsp://220.186.213.205/PLTV/88888913/224/3221229459/134307257.smil
 #EXTINF:-1,tvg-id="" tvg-name="深圳卫视高清" tvg-logo="https://epg.v1.mk/logo/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86%E9%AB%98%E6%B8%85.png" group-title="OTT",深圳卫视高清
 rtsp://220.186.213.205/PLTV/88888913/224/3221227988/10000100000000060000000000794038_0.smil
 #EXTINF:-1,tvg-id="" tvg-name="内蒙古卫视" tvg-logo="https://epg.v1.mk/logo/%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%AB%E8%A7%86.png" group-title="OTT",内蒙古卫视
@@ -249,6 +251,12 @@ rtsp://220.186.213.205/PLTV/88888913/224/3221227823/1000010000000006000000000030
 rtsp://220.186.213.205/PLTV/88888913/224/3221227841/10000100000000060000000000304251_0.smil
 #EXTINF:-1,tvg-id="" tvg-name="江西卫视" tvg-logo="https://epg.v1.mk/logo/%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="OTT",江西卫视
 rtsp://220.186.213.205/PLTV/88888913/224/3221227807/10000100000000060000000000304239_0.smil
+#EXTINF:-1,tvg-id="" tvg-name="西藏卫视" tvg-logo="https://epg.v1.mk/logo/%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86.png" group-title="OTT",西藏卫视
+rtsp://220.186.213.205/PLTV/88888913/224/3221228005/10000100000000060000000000793620_0.smil
+#EXTINF:-1,tvg-id="" tvg-name="兵团卫视" tvg-logo="https://epg.v1.mk/logo/%E5%85%B5%E5%9B%A2%E5%8D%AB%E8%A7%86.png" group-title="OTT",兵团卫视
+rtsp://220.186.213.205/PLTV/88888913/224/3221228006/10000100000000060000000000789241_0.smil
+#EXTINF:-1,tvg-id="" tvg-name="宁夏卫视" tvg-logo="https://epg.v1.mk/logo/%E5%AE%81%E5%A4%8F%E5%8D%AB%E8%A7%86.png" group-title="OTT",宁夏卫视
+rtsp://220.186.213.205/PLTV/88888913/224/3221227855/10000100000000060000000000304710_0.smil
 #EXTINF:-1,tvg-id="" tvg-name="河南卫视" tvg-logo="https://epg.v1.mk/logo/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="OTT",河南卫视
 rtsp://220.186.213.205/PLTV/88888913/224/3221227835/10000100000000060000000000304242_0.smil
 #EXTINF:-1,tvg-id="" tvg-name="深圳卫视" tvg-logo="https://epg.v1.mk/logo/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86.png" group-title="OTT",深圳卫视
@@ -259,6 +267,10 @@ rtsp://220.186.213.205/PLTV/88888913/224/3221229323/72486984.smil
 rtsp://220.186.213.205/PLTV/88888913/224/3221229331/74036079.smil
 #EXTINF:-1,tvg-id="4K" tvg-name="北京卫视4K" tvg-logo="https://epg.v1.mk/logo/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%864K.png" group-title="OTT",北京卫视4K
 rtsp://220.186.213.205/PLTV/88888913/224/3221229453/128124469.smil
+#EXTINF:-1,tvg-id="4K" tvg-name="广东卫视4K" tvg-logo="https://epg.v1.mk/logo/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%864K.png" group-title="OTT",广东卫视4K
+rtsp://220.186.213.205/PLTV/88888913/224/3221229456/131699760.smil
+#EXTINF:-1,tvg-id="4K" tvg-name="深圳卫视4K" tvg-logo="https://epg.v1.mk/logo/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%864K.png" group-title="OTT",深圳卫视4K
+rtsp://220.186.213.205/PLTV/88888913/224/3221229455/131699790.smil
 #EXTINF:-1,tvg-id="" tvg-name="浙江之声" tvg-logo="https://epg.v1.mk/logo/%E6%B5%99%E6%B1%9F%E4%B9%8B%E5%A3%B0.png" group-title="OTT",浙江之声
 rtsp://220.186.213.205/PLTV/88888913/224/3221228218/10000100000000060000000003102657_0.smil
 #EXTINF:-1,tvg-id="" tvg-name="经济频道" tvg-logo="https://epg.v1.mk/logo/%E7%BB%8F%E6%B5%8E%E9%A2%91%E9%81%93.png" group-title="OTT",经济频道
@@ -285,8 +297,8 @@ rtsp://220.186.213.205/PLTV/88888913/224/3221229015/1000010000000006000000000430
 rtsp://220.186.213.205/PLTV/88888913/224/3221229303/67227411.smil
 #EXTINF:-1,tvg-id="" tvg-name="熊猫宝宝幼儿园" tvg-logo="https://epg.v1.mk/logo/%E7%86%8A%E7%8C%AB%E5%AE%9D%E5%AE%9D%E5%B9%BC%E5%84%BF%E5%9B%AD.png" group-title="OTT",熊猫宝宝幼儿园
 rtsp://220.186.213.205/PLTV/88888913/224/3221229232/67227295.smil
-#EXTINF:-1,tvg-id="SD4" tvg-name="测试SD4" tvg-logo="https://epg.v1.mk/logo/%E6%B5%8B%E8%AF%95SD4.png" group-title="OTT",测试SD4
-rtsp://220.186.213.205/PLTV/88888913/224/3221228990/10000100000000060000000004414502_0.smil
+#EXTINF:-1,tvg-id="" tvg-name="大熊猫的一天" tvg-logo="https://epg.v1.mk/logo/%E5%A4%A7%E7%86%8A%E7%8C%AB%E7%9A%84%E4%B8%80%E5%A4%A9.png" group-title="OTT",大熊猫的一天
+rtsp://220.186.213.205/PLTV/88888913/224/3221229269/67227366.smil
 #EXTINF:-1,tvg-id="3" tvg-name="信号测试3" tvg-logo="https://epg.v1.mk/logo/%E4%BF%A1%E5%8F%B7%E6%B5%8B%E8%AF%953.png" group-title="OTT",信号测试3
 rtsp://220.186.213.205/PLTV/88888913/224/3221229181/50701500.smil
 #EXTINF:-1,tvg-id="4K1" tvg-name="4K测试1" tvg-logo="https://epg.v1.mk/logo/4K%E6%B5%8B%E8%AF%951.png" group-title="OTT",4K测试1
