@@ -131,8 +131,6 @@ rtsp://220.186.213.205/PLTV/88888913/224/3221227840/1000010000000006000000000030
 rtsp://220.186.213.205/PLTV/88888913/224/3221229202/59229692.smil
 #EXTINF:-1,tvg-id="" tvg-name="卡酷少儿" tvg-logo="https://epg.v1.mk/logo/%E5%8D%A1%E9%85%B7%E5%B0%91%E5%84%BF.png" group-title="OTT",卡酷少儿
 rtsp://220.186.213.205/PLTV/88888913/224/3221229420/110036417.smil
-#EXTINF:-1,tvg-id="" tvg-name="哈哈炫动" tvg-logo="https://epg.v1.mk/logo/%E5%93%88%E5%93%88%E7%82%AB%E5%8A%A8.png" group-title="OTT",哈哈炫动
-rtsp://220.186.213.205/PLTV/88888913/224/3221227973/10000100000000060000000000789247_0.smil
 #EXTINF:-1,tvg-id="" tvg-name="聚鲨环球精选" tvg-logo="https://epg.v1.mk/logo/%E8%81%9A%E9%B2%A8%E7%8E%AF%E7%90%83%E7%B2%BE%E9%80%89.png" group-title="OTT",聚鲨环球精选
 rtsp://220.186.213.205/PLTV/88888913/224/3221228984/10000100000000060000000004366615_0.smil
 #EXTINF:-1,tvg-id="" tvg-name="中国教育一套" tvg-logo="https://epg.v1.mk/logo/%E4%B8%AD%E5%9B%BD%E6%95%99%E8%82%B2%E4%B8%80%E5%A5%97.png" group-title="OTT",中国教育一套
@@ -263,12 +261,24 @@ rtsp://220.186.213.205/PLTV/88888913/224/3221227835/1000010000000006000000000030
 rtsp://220.186.213.205/PLTV/88888913/224/3221227772/10000100000000060000000000304160_0.smil
 #EXTINF:-1,tvg-id="" tvg-name="法治天地" tvg-logo="https://epg.v1.mk/logo/%E6%B3%95%E6%B2%BB%E5%A4%A9%E5%9C%B0.png" group-title="OTT",法治天地
 rtsp://220.186.213.205/PLTV/88888913/224/3221229323/72486984.smil
+#EXTINF:-1,tvg-id="4K" tvg-name="浙江卫视4K" tvg-logo="https://epg.v1.mk/logo/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%864K.png" group-title="OTT",浙江卫视4K
+rtsp://220.186.213.205/PLTV/88888913/224/3221229473/136086103.smil
 #EXTINF:-1,tvg-id="4K" tvg-name="中央奥运4K" tvg-logo="https://epg.v1.mk/logo/%E4%B8%AD%E5%A4%AE%E5%A5%A5%E8%BF%904K.png" group-title="OTT",中央奥运4K
 rtsp://220.186.213.205/PLTV/88888913/224/3221229331/74036079.smil
+#EXTINF:-1,tvg-id="4K" tvg-name="东方卫视4K" tvg-logo="https://epg.v1.mk/logo/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%864K.png" group-title="OTT",东方卫视4K
+rtsp://220.186.213.205/PLTV/88888913/224/3221229460/136083232.smil
+#EXTINF:-1,tvg-id="4K" tvg-name="湖南卫视4K" tvg-logo="https://epg.v1.mk/logo/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%864K.png" group-title="OTT",湖南卫视4K
+rtsp://220.186.213.205/PLTV/88888913/224/3221229464/136083240.smil
+#EXTINF:-1,tvg-id="4K" tvg-name="江苏卫视4K" tvg-logo="https://epg.v1.mk/logo/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%864K.png" group-title="OTT",江苏卫视4K
+rtsp://220.186.213.205/PLTV/88888913/224/3221229468/136083267.smil
 #EXTINF:-1,tvg-id="4K" tvg-name="北京卫视4K" tvg-logo="https://epg.v1.mk/logo/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%864K.png" group-title="OTT",北京卫视4K
 rtsp://220.186.213.205/PLTV/88888913/224/3221229453/128124469.smil
+#EXTINF:-1,tvg-id="4K" tvg-name="四川卫视4K" tvg-logo="https://epg.v1.mk/logo/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%864K.png" group-title="OTT",四川卫视4K
+rtsp://220.186.213.205/PLTV/88888913/224/3221229470/136083195.smil
 #EXTINF:-1,tvg-id="4K" tvg-name="广东卫视4K" tvg-logo="https://epg.v1.mk/logo/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%864K.png" group-title="OTT",广东卫视4K
 rtsp://220.186.213.205/PLTV/88888913/224/3221229456/131699760.smil
+#EXTINF:-1,tvg-id="4K" tvg-name="山东卫视4K" tvg-logo="https://epg.v1.mk/logo/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%864K.png" group-title="OTT",山东卫视4K
+rtsp://220.186.213.205/PLTV/88888913/224/3221229467/136083251.smil
 #EXTINF:-1,tvg-id="4K" tvg-name="深圳卫视4K" tvg-logo="https://epg.v1.mk/logo/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%864K.png" group-title="OTT",深圳卫视4K
 rtsp://220.186.213.205/PLTV/88888913/224/3221229455/131699790.smil
 #EXTINF:-1,tvg-id="" tvg-name="浙江之声" tvg-logo="https://epg.v1.mk/logo/%E6%B5%99%E6%B1%9F%E4%B9%8B%E5%A3%B0.png" group-title="OTT",浙江之声
