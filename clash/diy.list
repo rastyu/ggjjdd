@@ -12,7 +12,3 @@ DOMAIN-SUFFIX,speed.cloudflare.com
 
 # BANGUMI动漫推荐
 DOMAIN-SUFFIX,bgm.tv
-
-# 甲骨文云
-DOMAIN-SUFFIX,cloud.oracle.com
-DOMAIN-SUFFIX,www.oracle.com
