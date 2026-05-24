@@ -145,14 +145,10 @@ https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229209/
 https://rtp.75969207.xyz:8443/rtp/233.50.201.156:5140
 #EXTINF:-1 tvg-name="温州新闻综合" tvg-logo="https://epg.75969207.xyz:8443/data/icon/温州新闻综合.png" group-title="本地",温州新闻综合
 https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221228993/10000100000000060000000004199197_0.smil
-#EXTINF:-1 tvg-name="睛彩竞技" tvg-logo="https://epg.75969207.xyz:8443/data/icon/睛彩竞技.png" group-title="本地",睛彩竞技
-https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229408/94611403.smil
-#EXTINF:-1 tvg-name="睛彩篮球" tvg-logo="https://epg.75969207.xyz:8443/data/icon/睛彩篮球.png" group-title="本地",睛彩篮球
-https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229412/94611355.smil
-#EXTINF:-1 tvg-name="睛彩青少" tvg-logo="https://epg.75969207.xyz:8443/data/icon/睛彩青少.png" group-title="本地",睛彩青少
-https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229411/94611457.smil
-#EXTINF:-1 tvg-name="睛彩广场舞" tvg-logo="https://epg.75969207.xyz:8443/data/icon/睛彩广场舞.png" group-title="本地",睛彩广场舞
-https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229410/94611402.smil
+#EXTINF:-1 tvg-id="温州都市生活" tvg-logo="https://epg.75969207.xyz:8443/data/icon/温州都市生活.png" group-title="本地",温州都市生活
+https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229479/147415924.smil?r2h-token=jkY7QXgiugFV
+#EXTINF:-1 tvg-id="温州经济科技" tvg-logo="https://epg.75969207.xyz:8443/data/icon/温州经济科技.png" group-title="本地",温州经济科技
+https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229476/147415727.smil?r2h-token=jkY7QXgiugFV
 #EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://epg.75969207.xyz:8443/data/icon/都市剧场.png" group-title="本地",都市剧场
 https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229244/72486950.smil
 #EXTINF:-1 tvg-name="多彩文体" tvg-logo="https://epg.75969207.xyz:8443/data/icon/多彩文体.png" group-title="本地",多彩文体
@@ -241,13 +237,5 @@ https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229114/
 https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229201/52583204.smil
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://epg.75969207.xyz:8443/data/icon/CCTV16.png" group-title="体育",CCTV-16奥林匹克
 https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229307/70526246.smil
-#EXTINF:-1 tvg-name="睛彩竞技" tvg-logo="https://epg.75969207.xyz:8443/data/icon/睛彩竞技.png" group-title="体育",睛彩竞技
-https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229408/94611403.smil
-#EXTINF:-1 tvg-name="睛彩篮球" tvg-logo="https://epg.75969207.xyz:8443/data/icon/睛彩篮球.png" group-title="体育",睛彩篮球
-https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229412/94611355.smil
-#EXTINF:-1 tvg-name="睛彩青少" tvg-logo="https://epg.75969207.xyz:8443/data/icon/睛彩青少.png" group-title="体育",睛彩青少
-https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229411/94611457.smil
-#EXTINF:-1 tvg-name="睛彩广场舞" tvg-logo="https://epg.75969207.xyz:8443/data/icon/睛彩广场舞.png" group-title="体育",睛彩广场舞
-https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229410/94611402.smil
 #EXTINF:-1 tvg-name="BesTV篮球" tvg-logo="https://epg.75969207.xyz:8443/data/icon/BESTV.png" group-title="体育",BesTV篮球
 https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229269/67227366.smil
