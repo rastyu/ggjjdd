@@ -145,9 +145,9 @@ https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229209/
 https://rtp.75969207.xyz:8443/rtp/233.50.201.156:5140
 #EXTINF:-1 tvg-name="温州新闻综合" tvg-logo="https://epg.75969207.xyz:8443/data/icon/温州新闻综合.png" group-title="本地",温州新闻综合
 https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221228993/10000100000000060000000004199197_0.smil
-#EXTINF:-1 tvg-id="温州都市生活" tvg-logo="https://epg.75969207.xyz:8443/data/icon/温州都市生活.png" group-title="本地",温州都市生活
+#EXTINF:-1 tvg-name="温州都市生活" tvg-logo="https://epg.75969207.xyz:8443/data/icon/温州都市生活.png" group-title="本地",温州都市生活
 https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229479/147415924.smil?r2h-token=jkY7QXgiugFV
-#EXTINF:-1 tvg-id="温州经济科技" tvg-logo="https://epg.75969207.xyz:8443/data/icon/温州经济科技.png" group-title="本地",温州经济科技
+#EXTINF:-1 tvg-name="温州经济科技" tvg-logo="https://epg.75969207.xyz:8443/data/icon/温州经济科技.png" group-title="本地",温州经济科技
 https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229476/147415727.smil?r2h-token=jkY7QXgiugFV
 #EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://epg.75969207.xyz:8443/data/icon/都市剧场.png" group-title="本地",都市剧场
 https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229244/72486950.smil
