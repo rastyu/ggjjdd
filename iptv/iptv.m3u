@@ -6,7 +6,7 @@ https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221228083/
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://epg.75969207.xyz:8443/data/icon/CCTV3.png" group-title="央视",CCTV-3综艺
 https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229136/10000100000000060000000005809121_0.smil
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://epg.75969207.xyz:8443/data/icon/CCTV4.png" group-title="央视",CCTV-4中文国际
-https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229474/139134403.smil
+https://rtp.75969207.xyz:8443/rtp/233.50.201.127:5140
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://epg.75969207.xyz:8443/data/icon/CCTV5.png" group-title="央视",CCTV-5体育
 https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229114/10000100000000060000000005809143_0.smil
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://epg.75969207.xyz:8443/data/icon/CCTV6.png" group-title="央视",CCTV-6电影
