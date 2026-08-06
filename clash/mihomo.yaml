@@ -3,7 +3,7 @@
 # 机场订阅
 proxy-providers:
   Airport1:
-    url: "订阅url"
+    url: "http://192.168.10.2/cgi-bin/luci/admin/services/openclash/config"
     type: http
     interval: 0
     health-check:
