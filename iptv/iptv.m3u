@@ -233,21 +233,3 @@ https://rtp.75969207.xyz:8443/rtp/233.50.201.220:5140
 https://rtp.75969207.xyz:8443/rtp/233.50.201.192:5140
 #EXTINF:-1 tvg-id="BesTV篮球" tvg-name="BesTV篮球" tvg-logo="http://192.168.10.5:15678/data/icon/BESTV.png" group-title="体育",BesTV篮球
 https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229269/67227366.smil
-#EXTINF:-1 tvg-id="浙江之声" tvg-name="浙江之声" tvg-logo="http://192.168.10.5:15678/data/icon/浙江之声.png" group-title="广播",浙江之声
-https://rtp.75969207.xyz:8443/rtp/233.50.201.79:5140
-#EXTINF:-1 tvg-id="浙江广播" tvg-name="浙江广播" tvg-logo="http://192.168.10.5:15678/data/icon/浙江新闻广播.png" group-title="广播",浙江新闻广播
-https://rtp.75969207.xyz:8443/rtp/233.50.201.80:5140
-#EXTINF:-1 tvg-id="经济频道" tvg-name="经济频道" tvg-logo="http://192.168.10.5:15678/data/icon/经济频道.png" group-title="广播",经济频道
-https://rtp.75969207.xyz:8443/rtp/233.50.201.81:5140
-#EXTINF:-1 tvg-id="音乐调频" tvg-name="音乐调频" tvg-logo="http://192.168.10.5:15678/data/icon/音乐调频.png" group-title="广播",音乐调频
-https://rtp.75969207.xyz:8443/rtp/233.50.201.82:5140
-#EXTINF:-1 tvg-id="交通之声" tvg-name="交通之声" tvg-logo="http://192.168.10.5:15678/data/icon/交通之声.png" group-title="广播",交通之声
-https://rtp.75969207.xyz:8443/rtp/233.50.201.83:5140
-#EXTINF:-1 tvg-id="旅游之声" tvg-name="旅游之声" tvg-logo="http://192.168.10.5:15678/data/icon/旅游之声.png" group-title="广播",旅游之声
-https://rtp.75969207.xyz:8443/rtp/233.50.201.84:5140
-#EXTINF:-1 tvg-id="城市之声" tvg-name="城市之声" tvg-logo="http://192.168.10.5:15678/data/icon/城市之声.png" group-title="广播",城市之声
-https://rtp.75969207.xyz:8443/rtp/233.50.201.85:5140
-#EXTINF:-1 tvg-id="民生资讯" tvg-name="民生资讯" tvg-logo="http://192.168.10.5:15678/data/icon/民生资讯.png" group-title="广播",民生资讯
-https://rtp.75969207.xyz:8443/rtp/233.50.201.86:5140
-#EXTINF:-1 tvg-id="BesTVlive" tvg-name="BesTVlive" tvg-logo="http://192.168.10.5:15678/data/icon/BESTV.png" group-title="未分组",BesTVlive
-https://rtp.75969207.xyz:8443/rtp/233.50.200.234:5140
