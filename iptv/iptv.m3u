@@ -163,8 +163,6 @@ https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229323/
 https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229315/72486946.smil
 #EXTINF:-1 tvg-name="生活时尚" tvg-logo="https://epg.75969207.xyz:8443/data/icon/生活时尚.png" group-title="本地",生活时尚
 https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229277/72486909.smil
-#EXTINF:-1 tvg-name="环球旅游" tvg-logo="https://epg.75969207.xyz:8443/data/icon/环球旅游.png" group-title="本地",环球旅游
-https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229415/103499735.smil
 #EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="https://epg.75969207.xyz:8443/data/icon/北京纪实科教.png" group-title="本地",北京纪实
 https://rtp.75969207.xyz:8443/rtsp/220.186.213.205/PLTV/88888913/224/3221229419/110036300.smil
 #EXTINF:-1 tvg-name="动漫秀场" tvg-logo="https://epg.75969207.xyz:8443/data/icon/动漫秀场.png" group-title="本地",动漫秀场
